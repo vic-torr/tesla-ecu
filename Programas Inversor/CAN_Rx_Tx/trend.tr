@@ -1,0 +1,52 @@
+Version  = 1
+
+Symbol   = velocidad
+Type     = %PD: Drive Parameter
+Address  = 696
+Minimum  = 0.0
+Maximum  = 100.0
+Signed   = 0
+Color    = RGB(0,0,0)
+Format   = %.1f
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+X Scale  = 60
+Time Base= 1000
+Init Time= 17:38:13
+
+0 70.0
+1 71.0
+2 72.0
+3 73.0
+4 74.0
+5 75.0
+6 76.0
+7 77.0
+8 78.0
+9 79.0
+10 80.0
+11 81.0
+12 82.0
+13 83.0
+14 84.0
+15 85.0
+16 86.0
+17 87.0
+18 88.0
+19 89.0
+20 90.0
+21 91.0
+22 92.0
+23 93.0
+24 94.0
+25 95.0
+

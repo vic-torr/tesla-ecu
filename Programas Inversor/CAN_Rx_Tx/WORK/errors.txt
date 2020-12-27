@@ -1,0 +1,9 @@
+WEG Ladder Programmer V11.00
+Copyright (C) 1999-2017 WEG. All rights reserved.
+
+Message sintax:
+File name (Page,Line,Column) :
+Code : message
+
+CAN_RX_TX.BIN - 0 error(s), 0 warnings(s)
+- Aplication size : 314 bytes

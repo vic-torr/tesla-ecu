@@ -1,0 +1,10 @@
+Address       = 8001
+Initial Value = 
+Tag           = Tx
+Description   = 
+
+Address       = 8100
+Initial Value = 
+Tag           = Rx
+Description   = 
+

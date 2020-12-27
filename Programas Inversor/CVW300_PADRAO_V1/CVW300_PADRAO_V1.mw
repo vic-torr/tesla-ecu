@@ -1,0 +1,105 @@
+Address       = 8000
+Initial Value = 
+Tag           = Ref_Vel
+Description   = 
+
+Address       = 8001
+Initial Value = 
+Tag           = P18
+Description   = 
+
+Address       = 8002
+Initial Value = 
+Tag           = Vel_Max_Frente
+Description   = 
+
+Address       = 8003
+Initial Value = 
+Tag           = Vel_Max_Ré
+Description   = 
+
+Address       = 8004
+Initial Value = 
+Tag           = Diâmetro_Pneu_mm
+Description   = 
+
+Address       = 8005
+Initial Value = 
+Tag           = Relação i
+Description   = 
+
+Address       = 8006
+Initial Value = 
+Tag           = Vel_Real
+Description   = 
+
+Address       = 8007
+Initial Value = 
+Tag           = P402
+Description   = 
+
+Address       = 8008
+Initial Value = 
+Tag           = Aux_Rampa
+Description   = 
+
+Address       = 8009
+Initial Value = 
+Tag           = PD295
+Description   = 
+
+Address       = 8010
+Initial Value = 
+Tag           = In_Motor
+Description   = 
+
+Address       = 8011
+Initial Value = 
+Tag           = Vel_Real
+Description   = 
+
+Address       = 8012
+Initial Value = 
+Tag           = Torque Frente
+Description   = 
+
+Address       = 8013
+Initial Value = 
+Tag           = Torque Ré
+Description   = 
+
+Address       = 8014
+Initial Value = 
+Tag           = Vel_Max
+Description   = 
+
+Address       = 8015
+Initial Value = 
+Tag           = Vel_Aceleração
+Description   = 
+
+Address       = 8016
+Initial Value = 
+Tag           = Vel_Acel
+Description   = 
+
+Address       = 8017
+Initial Value = 
+Tag           = Vel_Frenagem
+Description   = 
+
+Address       = 8018
+Initial Value = 
+Tag           = Vel_Freio
+Description   = 
+
+Address       = 8034
+Initial Value = 
+Tag           = Aux_Oscilador
+Description   = 
+
+Address       = 8035
+Initial Value = 
+Tag           = Aux_Oscilador
+Description   = 
+

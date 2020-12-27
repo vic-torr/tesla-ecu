@@ -1,0 +1,70 @@
+(* WEG Ladder Programmer V8.71 *)
+(* Copyright (C) 1999-2011 WEG. Todos os direitos reservados. *)
+
+(* ***** INFORMAÇÕES PARA DEPURAÇÃO ***** *)
+
+(* PÁGINA 1 *)
+( 1, 0, 0) KMh/3.600.000*(T_SCAN/10). (OBS.3.600.000 É A QUANTIDADE DE MILESEGUNDOS EM UMA HORA E O T_SCAN DO DRIVE NA ESCALA DE 10)
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 1, 1) Function Block
+( 1, 1, 6) Function Block
+( 1, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 4, 1) Function Block
+( 1, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 7, 1) Function Block
+( 1, 7, 6) Function Block
+( 1, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1,10, 0) Contact
+( 1,-1,-1) LD    1
+( 1,11, 0) Contact
+( 1,10, 1) Function Block
+( 1,10, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1,13, 1) Function Block
+( 1,13, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 2 *)
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 0, 0) Contact
+( 2, 0, 7) Function Block
+( 2, 0, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 3, 0) Contact
+( 2, 3, 7) Function Block
+( 2, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 6, 0) Contact
+( 2,-1,-1) LD    1
+( 2, 7, 0) Contact
+( 2, 6, 7) Function Block
+( 2, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 9, 7) Function Block
+( 2, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2,11, 0) Contact
+( 2,11, 7) Function Block
+( 2,11, 9) Coil
+---------- End of Circuit

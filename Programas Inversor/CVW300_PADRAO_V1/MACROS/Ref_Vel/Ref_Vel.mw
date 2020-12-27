@@ -1,0 +1,30 @@
+Address       = 8002
+Initial Value = 
+Tag           = Vel_Max_Frente
+Description   = 
+
+Address       = 8003
+Initial Value = 
+Tag           = Vel_Max_Ré
+Description   = 
+
+Address       = 8004
+Initial Value = 
+Tag           = Diâmetro_Pneu_mm
+Description   = 
+
+Address       = 8005
+Initial Value = 
+Tag           = Relação i
+Description   = 
+
+Address       = 8022
+Initial Value = 
+Tag           = Vel_Acel
+Description   = 
+
+Address       = 8024
+Initial Value = 
+Tag           = Vel_Max
+Description   = 
+

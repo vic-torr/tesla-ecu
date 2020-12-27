@@ -1,0 +1,7 @@
+WLP Ve9.20 --> CWV300
+Copyright (C) 1999-2012 WEG. Todos os direitos reservados.
+
+Sintaxe da mensagem :
+Nome do arquivo (Página,Linha,Coluna) :
+Código : mensagem
+

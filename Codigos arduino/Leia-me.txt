@@ -1,0 +1,7 @@
+Can_Rx -> recebe dados de rede can, configurar baudrate pra rede a ser usada
+          Funcionando e testada.
+Can_Tx -> Envia dados pela rede can, configure o vetor a ser enviado
+          funcionando e testado
+Biblioteca MCP_CAN_lib Funcionando
+
+As demais ler o código, mas não são tão necessárias.

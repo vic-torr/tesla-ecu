@@ -1,0 +1,51 @@
+WEG Ladder Programmer V6.22
+Copyright (C) 1999-2007 WEG. Todos os direitos reservados.
+
+***** INFORMAÇÕES SOBRE O COMPILADOR *****
+
+- Equipamento     : PLC1.01
+- Projeto         : TORQ_MAX.MLD
+- Hora            : 18:45:52
+- Data            : Wednesday, August 01, 2007
+- Tempo decorrido : 0 segundo(s)
+
+***** INFORMAÇÕES DO PROGRAMA *****
+
+- Páginas         : 5
+- Lógicas         : 18
+- Elementos       : 62
+
+***** INFORMAÇÕES SOBRE OS ARQUIVOS *****
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\torq_max.mrk
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\torq_max.din
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\torq_max.dou
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\torq_max.mld
+- Hora            : 18:45:48
+- Data            : Wednesday, August 01, 2007
+- Tamanho         : 3487 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\work\errors.txt
+- Hora            : 18:45:52
+- Data            : Wednesday, August 01, 2007
+- Tamanho         : 176 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\work\errors.crd
+- Hora            : 18:45:52
+- Data            : Wednesday, August 01, 2007
+- Tamanho         : 0 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\work\cameprofiles.bin
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\torq_max\work\torq_max.bin
+- Hora            : 18:45:52
+- Data            : Wednesday, August 01, 2007
+- Tamanho         : 2716 bytes
+

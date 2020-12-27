@@ -1,0 +1,154 @@
+https://github.com/eziya/STM32_SPI_MCP2515.git
+eziya / STM32_SPI_MCP2515
+STM32_SPI_MCP2515 - STM32 + MCP2515 CAN Example
+github.com
+STM32 families have built-in bxCAN function, so if you only connect a transceiver
+such as MCP2551 without a separate IC such as MCP2515, there is no problem in implementing CAN communication function.
+
+But using Arduino CAN Shield, I thought I could use MCP2515, so I tried to implement
+CAN communication function by connecting Sparkfun's CAN Bus Shield to STM32F103RB.
+
+
+
+
+The STM32F103RB NUCLEO board provides Arduino Shield compatible pins. This makes
+it easy to attach CAN shields.
+https://learn.sparkfun.com/tutorials/can-bus-shield-hookup-guide
+
+CAN-Bus Shield Hookup Guide - learn.sparkfun.com
+Contributors: Toni_K, Member # 399586 Introduction The CAN-Bus Shield provides
+your Arduino or RedBoard with CAN-Bus capabilities and allows you to hack your
+vehicle! CAN-Bus Shield connected to a RedBoard. This shield allows you to poll
+the ECU for information including coolant temperature, throttle
+learn.sparkfun.com
+1. Pin setting using STM32CubeMx
+The pin setting related to CAN communication based on Sparkfun CAN-BUS Shield
+is as follows.
+CAN_CS: D10 (PB6)
+SPI_MOSI: D11 (PA7)
+SPI_MISO: D12 (PA6)
+SPI_SCK: D13 (PA5)
+
+Pin out of the Arduino board and Pin out conversion of the STM32F103RB are shown in the figure below.
+
+Set the LED pins to check SPI and communication status for MCP2515 communication as below.
+
+We will set the system clock to 72MHz which is the maximum clock of STM32F103RB.
+
+Next, proceed to SPI and GPIO-related settings on the Configuration tab.
+If you look at the MCP2515 data sheet in the SPI settings, the maximum SPI communication
+speed is 10 Mbps.
+Therefore, adjust the Prescaler value in the SPI setting so that the baud rate can be
+within 10Mbps.
+
+For MCP2515 Chip Select PB6, set the initial value to High.
+In case of PA8 and PA9 for LED1 and LED2, set the initial value to Low.
+
+Now click the Generate Code button to create the project.
+
+2. MCP2515 Driver Code
+We downloaded the basic code from the Microchip site below.
+Code Reference: https://www.microchip.com/forums/download.axd?file=0;993019
+Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/21801F.pdf
+
+Below is a list of changes I made in the code provided by Microchip above.
+1) Modify SPI communication function with STM32 HAL driver
+2) Correction of CS related port and GPIO driver
+3) Add successful verification code
+4) Code cleanup
+
+2.1 MCP2515.h
+Register-related address definition, instruction definition,
+structure and function declaration for SPI communication data management.
+
+
+
+
+2.2 MCP2515.c
+It implements MCP2515 initialization, mode change, data read / write and register read functions.
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+/ * Need to modify according to pin setting. Modify below items for your SPI configurations * /
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+    / * Confirm SPI Ready * /
+/ * Switch the MCP2515 to setting mode * /
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+
+
+
+
+
+
+3. CAN API code
+The CAN API code provides data structures and functions for CAN communication
+using the MCP2515 functions described above.
+
+3.1 CANSPI.h
+CAN message structure, ID type (Starndard or Extended), and function definition.
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+
+
+3.2 CANSPI.c
+MCP2515 initialization for CAN communication initialization, mode setting, CAN
+communication bit timing setting, message transmission, message reception, 
+error check, ID conversion function are implemented.
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+
+
+
+
+
+First of all, the most difficult part of the above code seems to be the filter setting part and CAN bit timing.
+In case of Filter, if you set Mask value to 0, it seems as if it accepts all but
+ it is bit 3 of RXFnSIDL register. The RxF0SIDL register must be set to 0x00 to
+ accept all standard types, and the RxF1SIDL register to 0x80 to accept all extended
+ types, so that all messages can be received. If both registers are set to 0x00,
+  messages of Extended Type can not be received.
+
+Then I would like the difficult part to be the Bit Timing setting. First, the
+reference menu is defined for Tq as below.
+Tq = 2 * (BRP + 1) / Fosc
+First, let's calculate Tq first. Since my shield uses a 16MHz clock source,
+Fosc becomes 16000000. When calculating the Tq when considering the BRP (Baud Rate Prescaler) as 0,
+Tq = 2 * 1/16000000 = 0.125us.
+
+Second, the NBT called Normial Bit Time is the formula below. That is, the
+sum of SyncSeg, PropSeg, PS1, and PS2 Tq times.
+Tbit = Tsyncseq + Tpropseg + Tps1 + Tps2
+The values ​​set for CNF1, CNF2, and CNF3 are as follows.
+SYNC_SEG: 1Tq fixed
+PROP_SEG: 6Tq
+PS1: 5Tq
+PS2: 4Tq
+
+Therefore, the total Tbit value becomes 1 + 6 + 5 + 4 = 16Tq = 16 * 0.125us = 2us = 500kbps.
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+
+
+The above code is related to sending and receiving messages. There are three Tx
+ buffers and two Rx buffers. And since RXB0 has a higher priority than RXB1,
+ it will accumulate in RXB0 if it satisfies the filter and mask condition of RXB0 first when receiving message.
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+
+4.2 main.c
+Echoing the received message at the time of receiving the message and transmitting the message every second.
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76
+
+
+
+
+The rest of the code is a function that reads the register, checks for errors
+ on the bus and the frame, and stores the ID in the register or reads it from the register.
+
+4. Application
+I have created a simple example using the MCP2515 driver and the CAN SPI function.
+
+4.1 main.h
+Add bool type declaration.
+[Source] [STM32] MCP2515 CAN communication (SPI method) | Author eziya76

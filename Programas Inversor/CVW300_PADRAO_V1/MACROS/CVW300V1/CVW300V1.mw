@@ -1,0 +1,50 @@
+Address       = 8000
+Initial Value = 
+Tag           = Ref_Vel
+Description   = 
+
+Address       = 8002
+Initial Value = 
+Tag           = Vel_Max_Frente
+Description   = 
+
+Address       = 8003
+Initial Value = 
+Tag           = Vel_Max_Ré
+Description   = 
+
+Address       = 8007
+Initial Value = 
+Tag           = Tempo_Acel
+Description   = 
+
+Address       = 8008
+Initial Value = 
+Tag           = Tempo_Desacel
+Description   = 
+
+Address       = 8020
+Initial Value = 
+Tag           = Vel_Freio
+Description   = 
+
+Address       = 8021
+Initial Value = 
+Tag           = Vel_Frenagem
+Description   = 
+
+Address       = 8022
+Initial Value = 
+Tag           = Vel_Acel
+Description   = 
+
+Address       = 8023
+Initial Value = 
+Tag           = Vel_Aceleração
+Description   = 
+
+Address       = 8024
+Initial Value = 
+Tag           = Vel_Max
+Description   = 
+

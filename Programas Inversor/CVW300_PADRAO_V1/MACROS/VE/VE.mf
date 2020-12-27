@@ -1,0 +1,85 @@
+Address       = 9002
+Initial Value = 
+Tag           = Vel_Max_Frente
+Description   = 
+
+Address       = 9003
+Initial Value = 
+Tag           = Vel_Max_Ré
+Description   = 
+
+Address       = 9014
+Initial Value = 
+Tag           = Tempo_Acel
+Description   = 
+
+Address       = 9015
+Initial Value = 
+Tag           = Tempo_Desacel
+Description   = 
+
+Address       = 9016
+Initial Value = 
+Tag           = Torque 1
+Description   = 
+
+Address       = 9017
+Initial Value = 
+Tag           = Torque 2
+Description   = 
+
+Address       = 9018
+Initial Value = 
+Tag           = Torque 3
+Description   = 
+
+Address       = 9019
+Initial Value = 
+Tag           = Torque 4
+Description   = 
+
+Address       = 9020
+Initial Value = 
+Tag           = Vel_1
+Description   = 
+
+Address       = 9021
+Initial Value = 
+Tag           = Vel_2
+Description   = 
+
+Address       = 9022
+Initial Value = 
+Tag           = Vel_3
+Description   = 
+
+Address       = 9023
+Initial Value = 
+Tag           = Vel_4
+Description   = 
+
+Address       = 9024
+Initial Value = 
+Tag           = Max_Torque
+Description   = 
+
+Address       = 9038
+Initial Value = 
+Tag           = I_Regen
+Description   = 
+
+Address       = 9049
+Initial Value = 
+Tag           = Vel_Real_Módulo
+Description   = 
+
+Address       = 9056
+Initial Value = 
+Tag           = Vel_Freio
+Description   = 
+
+Address       = 9059
+Initial Value = 
+Tag           = Acel
+Description   = 
+

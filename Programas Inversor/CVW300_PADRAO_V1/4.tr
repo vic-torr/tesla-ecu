@@ -1,0 +1,27 @@
+Version  = 1
+
+Symbol   = 
+Type     = %PD: Parâmetro do Drive
+Address  = 38
+Minimum  = -10.0
+Maximum  = 50.0
+Signed   = 1
+Color    = RGB(0,0,0)
+Format   = %.1f
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+X Scale  = 60
+Time Base= 3560
+Init Time= 18:10:47
+
+0 13810882130821074000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.0
+

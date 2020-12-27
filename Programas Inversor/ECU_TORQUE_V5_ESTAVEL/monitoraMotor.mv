@@ -1,0 +1,48 @@
+Tag     = vref
+Type    = %PD: Drive Parameter
+Address = 1
+
+Tag     = motorspeed
+Type    = %PD: Drive Parameter
+Address = 2
+
+Tag     = motorCurrent
+Type    = %PD: Drive Parameter
+Address = 3
+
+Tag     = battery voltage
+Type    = %PD: Drive Parameter
+Address = 4
+
+Tag     = motorVoltage
+Type    = %PD: Drive Parameter
+Address = 7
+
+Tag     = torque
+Type    = %PD: Drive Parameter
+Address = 9
+
+Tag     = outputPower
+Type    = %PD: Drive Parameter
+Address = 10
+
+Tag     = Throttle
+Type    = %PD: Drive Parameter
+Address = 18
+
+Tag     = temp
+Type    = %PD: Drive Parameter
+Address = 34
+
+Tag     = outputEnergy
+Type    = %PD: Drive Parameter
+Address = 44
+
+Tag     = ControllerStatus
+Type    = %PD: Drive Parameter
+Address = 705
+
+Tag     = BusOffCount
+Type    = %PD: Drive Parameter
+Address = 708
+

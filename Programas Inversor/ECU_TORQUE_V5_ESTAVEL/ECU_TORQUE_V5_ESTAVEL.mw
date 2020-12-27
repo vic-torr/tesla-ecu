@@ -1,0 +1,35 @@
+Address       = 8002
+Initial Value = 
+Tag           = ref_torq
+Description   = 
+
+Address       = 8004
+Initial Value = 
+Tag           = comando
+Description   = 
+
+Address       = 8006
+Initial Value = 
+Tag           = flag_freia
+Description   = 
+
+Address       = 8007
+Initial Value = 
+Tag           = ref_vel
+Description   = 
+
+Address       = 8008
+Initial Value = 
+Tag           = vel_rotor
+Description   = 
+
+Address       = 8010
+Initial Value = 
+Tag           = rev_vel_slip_int
+Description   = 
+
+Address       = 8015
+Initial Value = 
+Tag           = acel
+Description   = 
+

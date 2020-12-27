@@ -1,0 +1,53 @@
+(* WEG Ladder Programmer V11.00 *)
+(* Copyright (C) 1999-2017 WEG. All rights reserved. *)
+
+(* ***** DEBUG INFORMATION ***** *)
+
+(* PAGE 1 *)
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 0, 1) Function Block
+( 1, 0, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 2, 1) Function Block
+( 1, 2, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 4, 1) Function Block
+( 1, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 7, 1) Function Block
+( 1, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 9, 1) Function Block
+( 1, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1,11, 1) Function Block
+( 1,11, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1,13, 1) Function Block
+( 1,13, 9) Coil
+---------- End of Circuit
+
+(* PAGE 2 *)
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 1, 1) Function Block
+( 2, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 4, 1) Function Block
+( 2, 4, 9) Coil
+---------- End of Circuit

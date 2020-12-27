@@ -1,0 +1,51 @@
+WEG Ladder Programmer V6.22
+Copyright (C) 1999-2007 WEG. Todos os direitos reservados.
+
+***** INFORMAÇÕES SOBRE O COMPILADOR *****
+
+- Equipamento     : PLC1.01
+- Projeto         : RAMPA_M.MLD
+- Hora            : 12:14:07
+- Data            : Wednesday, September 12, 2007
+- Tempo decorrido : 0 segundo(s)
+
+***** INFORMAÇÕES DO PROGRAMA *****
+
+- Páginas         : 4
+- Lógicas         : 15
+- Elementos       : 45
+
+***** INFORMAÇÕES SOBRE OS ARQUIVOS *****
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\rampa_m.mrk
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\rampa_m.din
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\rampa_m.dou
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\rampa_m.mld
+- Hora            : 12:14:07
+- Data            : Wednesday, September 12, 2007
+- Tamanho         : 2454 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\work\errors.txt
+- Hora            : 12:14:07
+- Data            : Wednesday, September 12, 2007
+- Tamanho         : 176 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\work\errors.crd
+- Hora            : 12:14:07
+- Data            : Wednesday, September 12, 2007
+- Tamanho         : 0 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\work\cameprofiles.bin
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\bonde_teste\macros\rampa_m\work\rampa_m.bin
+- Hora            : 12:14:07
+- Data            : Wednesday, September 12, 2007
+- Tamanho         : 2000 bytes
+

@@ -1,0 +1,31 @@
+WEG Ladder Programmer V11.00
+Copyright (C) 1999-2017 WEG. All rights reserved.
+
+***** COMPILER INFORMATION *****
+
+- Equipament      : CVW300
+- Project         : CAN_RX_TX.LDD
+- Time            : 17:18:45
+- Date            : Thursday, March 22, 2018
+- Elapsed time    : 0 segcond(s)
+
+***** PROGRAM INFORMATION *****
+
+- Pages           : 2
+- Lógics          : 9
+- Elements        : 18
+
+***** FILES INFORMATION *****
+
+- Project path    : d:\programfiles\weg\wlp v11.00\projects\can_rx_tx  
+
+- Name            : can_rx_tx.ldd
+- Time            : 17:18:45
+- Date            : Thursday, March 22, 2018
+- Size            : 819 bytes
+
+- Name            : work\can_rx_tx.bin
+- Time            : 17:18:45
+- Date            : Thursday, March 22, 2018
+- Size            : 314 bytes
+

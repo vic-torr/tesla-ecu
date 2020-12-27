@@ -1,0 +1,54 @@
+Version  = 1
+
+Symbol   = velRed
+Type     = %PD: Drive Parameter
+Address  = 1
+Minimum  = 0.0
+Maximum  = 100.0
+Signed   = 0
+Color    = RGB(0,0,0)
+Format   = %.1f
+
+Symbol   = motorSpeed
+Type     = %PD: Drive Parameter
+Address  = 2
+Minimum  = 0.0
+Maximum  = 100.0
+Signed   = 0
+Color    = RGB(255,0,0)
+Format   = %.1f
+
+Symbol   = current
+Type     = %PD: Drive Parameter
+Address  = 3
+Minimum  = 0.0
+Maximum  = 65000.0
+Signed   = 0
+Color    = RGB(0,255,0)
+Format   = %.1f
+
+Symbol   = vref2
+Type     = %PD: Drive Parameter
+Address  = 685
+Minimum  = 0.0
+Maximum  = 3000.0
+Signed   = 0
+Color    = RGB(0,0,255)
+Format   = %.1f
+
+Symbol   = [null]
+
+Symbol   = [null]
+
+X Scale  = 30
+Time Base= 44120
+Init Time= 17:04:31
+
+0 0.0
+
+0 0.0
+
+0 0.0
+
+0 0.0
+

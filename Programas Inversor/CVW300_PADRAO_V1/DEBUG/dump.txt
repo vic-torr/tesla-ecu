@@ -1,0 +1,1259 @@
+(* WEG Ladder Programmer V10.01 *)
+(* Copyright (C) 1999-2016 WEG. Todos os direitos reservados. *)
+
+(* ***** INFORMAÇÕES PARA DEPURAÇÃO ***** *)
+
+(* PÁGINA 1 *)
+( 1, 0, 0) #############################################################################################
+( 1, 1, 0) WEG DRIVES E CONTROLS
+( 1, 2, 0) DEPARTAMENTO DE PROJETOS,ENGENHARIA E AUTOMAÇÃO
+( 1, 3, 0) SISTEMA : VEICULO ELETRICO
+( 1, 4, 0) CVW300 PADRÃO
+( 1, 5, 0) VERSÃO DO APLICATIVO: 1.00
+( 1, 6, 0) DATA DA ELABORAÇÃO : 12/2016
+( 1, 7, 0) VERSÃO SOFTWARE: WLP 10.0
+( 1, 8, 0) VERSÃO FIRMWARE: 2.01
+( 1, 9, 0) #############################################################################################
+
+(* PÁGINA 2 *)
+( 2, 0, 0) Habilita Funções do Inversor
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 1, 0) Contact
+( 2, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 3, 0) Contact
+( 2, 3, 3) Function Block
+( 2, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 6, 0) Contact
+( 2, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 8, 0) Contact
+( 2, 8, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2,10, 0) Contact
+( 2,10, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 3 *)
+( 3, 0, 0) Velocidade Real
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3, 1, 2) Function Block
+( 3, 1, 6) Function Block
+( 3, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3, 4, 2) Function Block
+( 3, 4, 6) Function Block
+( 3, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3, 7, 4) Function Block
+( 3, 7, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 4 *)
+( 4, 0, 0) Pedal Acelerador
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4, 1, 4) Function Block
+( 4, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4, 3, 4) Function Block
+( 4, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4, 5, 1) Function Block
+( 4, 5, 6) Function Block
+( 4, 5, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4, 8, 4) Function Block
+( 4, 8, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 5 *)
+( 5, 0, 0) Entradas Digitais
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5, 1, 0) Contact
+( 5,-1,-1) LD    1
+( 5, 3, 0) Contact
+( 5,-1,-1) OR    
+( 5, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5, 5, 0) Contact
+( 5, 5, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5, 7, 0) Contact
+( 5, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5, 9, 0) Contact
+( 5, 9, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 6 *)
+( 6, 0, 0) Chave Frente / Ré
+---------- Start of Circuit
+( 6,-1,-1) LD    1
+( 6, 1, 0) Contact
+( 6, 1, 2) Contact
+( 6, 3, 9) DUP
+( 6, 3, 9) Coil
+( 6, 2, 9) DUP
+( 6, 2, 9) Coil
+( 6, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 6,-1,-1) LD    1
+( 6, 4, 0) Contact
+( 6, 4, 2) Contact
+( 6, 6, 9) DUP
+( 6, 6, 9) Coil
+( 6, 5, 9) DUP
+( 6, 5, 9) Coil
+( 6, 4, 9) Coil
+---------- End of Circuit
+( 6, 8, 0) Neutro
+---------- Start of Circuit
+( 6,-1,-1) LD    1
+( 6, 9, 0) Contact
+( 6, 9, 1) Contact
+( 6, 9, 9) Coil
+---------- End of Circuit
+( 6,11, 0) Freio
+---------- Start of Circuit
+( 6,-1,-1) LD    1
+( 6,12, 0) Contact
+( 6,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 7 *)
+( 7, 0, 0) Chave Lebre/Tartaruga
+---------- Start of Circuit
+( 7,-1,-1) LD    1
+( 7, 1, 0) Contact
+( 7, 1, 1) Contact
+( 7, 2, 9) DUP
+( 7, 2, 9) Coil
+( 7, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 7,-1,-1) LD    1
+( 7, 3, 0) Contact
+( 7, 3, 1) Contact
+( 7, 5, 9) DUP
+( 7, 5, 9) Coil
+( 7, 4, 9) DUP
+( 7, 4, 9) Coil
+( 7, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 7,-1,-1) LD    1
+( 7, 6, 0) Contact
+( 7, 6, 1) Contact
+( 7, 6, 2) Contact
+( 7, 6, 9) Coil
+---------- End of Circuit
+( 7, 8, 0) Sonalarme de Ré
+---------- Start of Circuit
+( 7,-1,-1) LD    1
+( 7, 9, 0) Contact
+( 7, 9, 2) Contact
+( 7, 9, 4) Contact
+( 7, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 7,-1,-1) LD    1
+( 7,11, 0) Contact
+( 7,11, 2) Contact
+( 7,11, 5) Function Block
+( 7,11, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 7,-1,-1) LD    1
+( 7,13, 0) Contact
+( 7,13, 5) Function Block
+( 7,13, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 8 *)
+( 8, 0, 0) Transição Frente/Ré 
+---------- Start of Circuit
+( 8,-1,-1) LD    1
+( 8, 1, 0) Contact
+( 8, 1, 5) Function Block
+( 8, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 8,-1,-1) LD    1
+( 8, 4, 0) Contact
+( 8, 4, 5) Function Block
+( 8, 4, 9) Coil
+---------- End of Circuit
+( 8, 9, 0) Modo Aceleração
+---------- Start of Circuit
+( 8,-1,-1) LD    1
+( 8,10, 0) Contact
+( 8,10, 1) Contact
+( 8,-1,-1) LD    1
+( 8,11, 0) Contact
+( 8,11, 1) Contact
+( 8,-1,-1) OR    
+( 8,10, 2) Contact
+( 8,10, 3) Contact
+( 8,10, 4) Contact
+( 8,10, 5) Contact
+( 8,10, 6) Contact
+( 8,10, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 9 *)
+( 9, 0, 0) Relação de Transmissão e Pneu
+---------- Start of Circuit
+( 9,-1,-1) LD    1
+( 9, 1, 2) Function Block
+( 9, 1, 6) Function Block
+( 9, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 9,-1,-1) LD    1
+( 9, 3, 2) Function Block
+( 9, 3, 6) Function Block
+( 9, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 9,-1,-1) LD    1
+( 9, 7, 2) Function Block
+( 9, 7, 6) Function Block
+( 9, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 9,-1,-1) LD    1
+( 9, 9, 2) Function Block
+( 9, 9, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 10 *)
+(10, 0, 0) Nível de Aceleração Frente
+---------- Start of Circuit
+(10,-1,-1) LD    1
+(10, 1, 2) Function Block
+(10, 1, 6) Function Block
+(10, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(10,-1,-1) LD    1
+(10, 4, 0) Contact
+(10, 4, 4) Function Block
+(10, 4, 9) Coil
+---------- End of Circuit
+(10, 8, 0) Nível de Aceleração Ré
+---------- Start of Circuit
+(10,-1,-1) LD    1
+(10, 9, 2) Function Block
+(10, 9, 6) Function Block
+(10, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(10,-1,-1) LD    1
+(10,12, 0) Contact
+(10,12, 4) Function Block
+(10,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 11 *)
+(11, 0, 0) Nível Desaceleração Frente
+---------- Start of Circuit
+(11,-1,-1) LD    1
+(11, 1, 3) Function Block
+(11, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(11,-1,-1) LD    1
+(11, 3, 0) Contact
+(11,-1,-1) LD    1
+(11, 4, 0) Contact
+(11,-1,-1) OR    
+(11, 3, 3) Function Block
+(11, 3, 6) Function Block
+(11, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(11,-1,-1) LD    1
+(11, 6, 0) Contact
+(11,-1,-1) LD    1
+(11, 7, 0) Contact
+(11,-1,-1) OR    
+(11, 6, 3) Function Block
+(11, 6, 6) Function Block
+(11, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(11,-1,-1) LD    1
+(11, 9, 0) Contact
+(11,-1,-1) LD    1
+(11,10, 0) Contact
+(11,-1,-1) OR    
+(11, 9, 3) Function Block
+(11, 9, 6) Function Block
+(11, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(11,-1,-1) LD    1
+(11,12, 0) Contact
+(11,-1,-1) LD    1
+(11,13, 0) Contact
+(11,-1,-1) OR    
+(11,12, 3) Function Block
+(11,12, 6) Function Block
+(11,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 12 *)
+(12, 0, 0) Nível Desaceleração Frente
+---------- Start of Circuit
+(12,-1,-1) LD    1
+(12, 1, 0) Contact
+(12,-1,-1) LD    1
+(12, 2, 0) Contact
+(12,-1,-1) OR    
+(12, 1, 3) Function Block
+(12, 1, 6) Function Block
+(12, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(12,-1,-1) LD    1
+(12, 4, 0) Contact
+(12,-1,-1) LD    1
+(12, 5, 0) Contact
+(12,-1,-1) OR    
+(12, 4, 3) Function Block
+(12, 4, 6) Function Block
+(12, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(12,-1,-1) LD    1
+(12, 7, 0) Contact
+(12,-1,-1) LD    1
+(12, 8, 0) Contact
+(12,-1,-1) OR    
+(12, 7, 3) Function Block
+(12, 7, 6) Function Block
+(12, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(12,-1,-1) LD    1
+(12,10, 0) Contact
+(12,-1,-1) LD    1
+(12,11, 0) Contact
+(12,-1,-1) OR    
+(12,10, 3) Function Block
+(12,10, 6) Function Block
+(12,10, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 13 *)
+(13, 0, 0) Nível Desaceleração Frente
+---------- Start of Circuit
+(13,-1,-1) LD    1
+(13, 1, 0) Contact
+(13,-1,-1) LD    1
+(13, 2, 0) Contact
+(13,-1,-1) OR    
+(13, 1, 3) Function Block
+(13, 1, 6) Function Block
+(13, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(13,-1,-1) LD    1
+(13, 4, 0) Contact
+(13,-1,-1) LD    1
+(13, 5, 0) Contact
+(13,-1,-1) OR    
+(13, 4, 3) Function Block
+(13, 4, 6) Function Block
+(13, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(13,-1,-1) LD    1
+(13, 7, 0) Contact
+(13,-1,-1) LD    1
+(13, 8, 0) Contact
+(13,-1,-1) OR    
+(13, 7, 3) Function Block
+(13, 7, 6) Function Block
+(13, 7, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 14 *)
+(14, 0, 0) Nível Desaceleração Ré
+---------- Start of Circuit
+(14,-1,-1) LD    1
+(14, 1, 3) Function Block
+(14, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(14,-1,-1) LD    1
+(14, 3, 0) Contact
+(14,-1,-1) LD    1
+(14, 4, 0) Contact
+(14,-1,-1) OR    
+(14, 3, 3) Function Block
+(14, 3, 6) Function Block
+(14, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(14,-1,-1) LD    1
+(14, 6, 0) Contact
+(14,-1,-1) LD    1
+(14, 7, 0) Contact
+(14,-1,-1) OR    
+(14, 6, 3) Function Block
+(14, 6, 6) Function Block
+(14, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(14,-1,-1) LD    1
+(14, 9, 0) Contact
+(14,-1,-1) LD    1
+(14,10, 0) Contact
+(14,-1,-1) OR    
+(14, 9, 3) Function Block
+(14, 9, 6) Function Block
+(14, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(14,-1,-1) LD    1
+(14,12, 0) Contact
+(14,-1,-1) LD    1
+(14,13, 0) Contact
+(14,-1,-1) OR    
+(14,12, 3) Function Block
+(14,12, 6) Function Block
+(14,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 15 *)
+(15, 0, 0) Nível Desaceleração Ré
+---------- Start of Circuit
+(15,-1,-1) LD    1
+(15, 1, 0) Contact
+(15,-1,-1) LD    1
+(15, 2, 0) Contact
+(15,-1,-1) OR    
+(15, 1, 3) Function Block
+(15, 1, 6) Function Block
+(15, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(15,-1,-1) LD    1
+(15, 4, 0) Contact
+(15,-1,-1) LD    1
+(15, 5, 0) Contact
+(15,-1,-1) OR    
+(15, 4, 3) Function Block
+(15, 4, 6) Function Block
+(15, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(15,-1,-1) LD    1
+(15, 7, 0) Contact
+(15,-1,-1) LD    1
+(15, 8, 0) Contact
+(15,-1,-1) OR    
+(15, 7, 3) Function Block
+(15, 7, 6) Function Block
+(15, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(15,-1,-1) LD    1
+(15,10, 0) Contact
+(15,-1,-1) LD    1
+(15,11, 0) Contact
+(15,-1,-1) OR    
+(15,10, 3) Function Block
+(15,10, 6) Function Block
+(15,10, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 16 *)
+(16, 0, 0) Nível Desaceleração Ré
+---------- Start of Circuit
+(16,-1,-1) LD    1
+(16, 1, 0) Contact
+(16,-1,-1) LD    1
+(16, 2, 0) Contact
+(16,-1,-1) OR    
+(16, 1, 3) Function Block
+(16, 1, 6) Function Block
+(16, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(16,-1,-1) LD    1
+(16, 4, 0) Contact
+(16,-1,-1) LD    1
+(16, 5, 0) Contact
+(16,-1,-1) OR    
+(16, 4, 3) Function Block
+(16, 4, 6) Function Block
+(16, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(16,-1,-1) LD    1
+(16, 7, 0) Contact
+(16,-1,-1) LD    1
+(16, 8, 0) Contact
+(16,-1,-1) OR    
+(16, 7, 3) Function Block
+(16, 7, 6) Function Block
+(16, 7, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 17 *)
+(17, 0, 0) Cálculo Nível de Desaceleração Frente/Ré
+---------- Start of Circuit
+(17,-1,-1) LD    1
+(17, 1, 0) Contact
+(17,-1,-1) LD    1
+(17, 2, 0) Contact
+(17,-1,-1) OR    
+(17, 1, 1) Contact
+(17, 1, 2) Contact
+(17, 1, 3) Contact
+(17, 1, 4) Contact
+(17, 1, 5) Contact
+(17, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(17,-1,-1) LD    1
+(17, 3, 0) Contact
+(17, 3, 4) Function Block
+(17, 3, 7) Function Block
+(17, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(17,-1,-1) LD    1
+(17, 6, 0) Contact
+(17,-1,-1) LD    1
+(17, 7, 0) Contact
+(17,-1,-1) OR    
+(17, 6, 2) Contact
+(17, 6, 4) Function Block
+(17, 6, 7) Function Block
+(17, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(17,-1,-1) LD    1
+(17, 9, 0) Contact
+(17,-1,-1) LD    1
+(17,10, 0) Contact
+(17,-1,-1) OR    
+(17, 9, 1) Contact
+(17, 9, 2) Contact
+(17, 9, 3) Contact
+(17, 9, 4) Contact
+(17, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(17,-1,-1) LD    1
+(17,11, 0) Contact
+(17,11, 4) Function Block
+(17,11, 7) Function Block
+(17,11, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 18 *)
+---------- Start of Circuit
+(18,-1,-1) LD    1
+(18, 0, 0) Contact
+(18,-1,-1) LD    1
+(18, 1, 0) Contact
+(18,-1,-1) OR    
+(18, 0, 2) Contact
+(18, 0, 4) Function Block
+(18, 0, 7) Function Block
+(18, 0, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(18,-1,-1) LD    1
+(18, 3, 0) Contact
+(18,-1,-1) LD    1
+(18, 4, 0) Contact
+(18,-1,-1) OR    
+(18, 3, 1) Contact
+(18, 3, 2) Contact
+(18, 3, 3) Contact
+(18, 3, 4) Function Block
+(18, 3, 7) Function Block
+(18, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(18,-1,-1) LD    1
+(18, 6, 0) Contact
+(18,-1,-1) LD    1
+(18, 7, 0) Contact
+(18,-1,-1) OR    
+(18, 6, 2) Contact
+(18, 6, 3) Function Block
+(18, 6, 6) Function Block
+(18, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(18,-1,-1) LD    1
+(18, 9, 0) Contact
+(18,-1,-1) LD    1
+(18,10, 0) Contact
+(18,-1,-1) OR    
+(18, 9, 1) Contact
+(18, 9, 2) Contact
+(18, 9, 3) Function Block
+(18, 9, 7) Function Block
+(18, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(18,-1,-1) LD    1
+(18,12, 0) Contact
+(18,-1,-1) LD    1
+(18,13, 0) Contact
+(18,-1,-1) OR    
+(18,12, 1) Contact
+(18,12, 2) Function Block
+(18,12, 6) Function Block
+(18,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 19 *)
+---------- Start of Circuit
+(19,-1,-1) LD    1
+(19, 0, 0) Contact
+(19,-1,-1) LD    1
+(19, 1, 0) Contact
+(19,-1,-1) OR    
+(19, 0, 1) Contact
+(19, 0, 3) Function Block
+(19, 0, 7) Function Block
+(19, 0, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(19,-1,-1) LD    1
+(19, 3, 0) Contact
+(19,-1,-1) LD    1
+(19, 4, 0) Contact
+(19,-1,-1) OR    
+(19, 3, 1) Contact
+(19, 3, 2) Function Block
+(19, 3, 6) Function Block
+(19, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(19,-1,-1) LD    1
+(19, 6, 0) Contact
+(19,-1,-1) LD    1
+(19, 7, 0) Contact
+(19,-1,-1) OR    
+(19, 6, 3) Function Block
+(19, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(19,-1,-1) LD    1
+(19, 9, 0) Contact
+(19,-1,-1) LD    1
+(19,10, 0) Contact
+(19,-1,-1) OR    
+(19, 9, 1) Contact
+(19, 9, 2) Function Block
+(19, 9, 6) Function Block
+(19, 9, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 20 *)
+(20, 0, 0) Velocidade Máxima [km/h] (Modo Lebre)
+---------- Start of Circuit
+(20,-1,-1) LD    1
+(20, 1, 0) Contact
+(20, 1, 1) Contact
+(20, 1, 3) Function Block
+(20, 1, 6) Function Block
+(20, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(20,-1,-1) LD    1
+(20, 3, 0) Contact
+(20, 3, 1) Contact
+(20, 3, 3) Function Block
+(20, 3, 6) Function Block
+(20, 3, 9) Coil
+---------- End of Circuit
+(20, 6, 0) Velocidade Reduzida [km/h] (Modo Reduzida)
+---------- Start of Circuit
+(20,-1,-1) LD    1
+(20, 7, 0) Contact
+(20, 7, 1) Contact
+(20, 7, 3) Function Block
+(20, 7, 6) Function Block
+(20, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(20,-1,-1) LD    1
+(20, 9, 0) Contact
+(20, 9, 1) Contact
+(20, 9, 3) Function Block
+(20, 9, 6) Function Block
+(20, 9, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 21 *)
+(21, 0, 0) Transformar km/h em rpm
+(21, 1, 0) Referência Velocidade - Frente
+---------- Start of Circuit
+(21,-1,-1) LD    1
+(21, 2, 0) Contact
+(21, 2, 2) Function Block
+(21, 2, 6) Function Block
+(21, 2, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(21,-1,-1) LD    1
+(21, 5, 0) Contact
+(21, 5, 2) Function Block
+(21, 5, 6) Function Block
+(21, 5, 9) Coil
+---------- End of Circuit
+(21, 8, 0) Referência Velocidade - Ré
+---------- Start of Circuit
+(21,-1,-1) LD    1
+(21, 9, 0) Contact
+(21, 9, 2) Function Block
+(21, 9, 6) Function Block
+(21, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(21,-1,-1) LD    1
+(21,12, 0) Contact
+(21,12, 2) Function Block
+(21,12, 6) Function Block
+(21,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 22 *)
+(22, 0, 0) Referência de Velocidade RPM
+---------- Start of Circuit
+(22,-1,-1) LD    1
+(22, 1, 2) Function Block
+(22, 1, 6) Function Block
+(22, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(22,-1,-1) LD    1
+(22, 4, 2) Function Block
+(22, 4, 6) Function Block
+(22, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(22,-1,-1) LD    1
+(22, 7, 6) Function Block
+(22, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(22,-1,-1) LD    1
+(22,10, 1) Contact
+(22,10, 4) Contact
+(22,10, 6) Function Block
+(22,10, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 23 *)
+(23, 0, 0) Referência de Velocidade Regeneração RPM
+---------- Start of Circuit
+(23,-1,-1) LD    1
+(23, 1, 0) Contact
+(23, 1, 3) Contact
+(23, 1, 4) Function Block
+(23, 1, 7) Function Block
+(23, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(23,-1,-1) LD    1
+(23, 5, 0) Contact
+(23, 5, 2) Function Block
+(23, 5, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(23,-1,-1) LD    1
+(23, 9, 1) Contact
+(23, 9, 2) Contact
+(23, 9, 4) Contact
+(23, 9, 7) Function Block
+(23, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(23,-1,-1) LD    1
+(23,12, 0) Contact
+(23,12, 2) Contact
+(23,12, 3) Contact
+(23,12, 6) Function Block
+(23,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 24 *)
+(24, 0, 0) Referência de Velocidade Freio RPM
+---------- Start of Circuit
+(24,-1,-1) LD    1
+(24, 1, 3) Function Block
+(24, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(24,-1,-1) LD    1
+(24, 3, 0) Contact
+(24, 3, 3) Function Block
+(24, 3, 7) Function Block
+(24, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(24,-1,-1) LD    1
+(24, 6, 0) Contact
+(24, 6, 2) Function Block
+(24, 6, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 25 *)
+(25, 0, 0) Referência de Velocidade RPM
+---------- Start of Circuit
+(25,-1,-1) LD    1
+(25, 1, 0) Contact
+(25, 1, 3) Function Block
+(25, 1, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 26 *)
+(26, 0, 0) Comparadores de Velocidade
+---------- Start of Circuit
+(26,-1,-1) LD    1
+(26, 1, 2) Function Block
+(26, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(26,-1,-1) LD    1
+(26, 4, 2) Function Block
+(26, 4, 6) Function Block
+(26, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(26,-1,-1) LD    1
+(26, 7, 2) Function Block
+(26, 7, 6) Function Block
+(26, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(26,-1,-1) LD    1
+(26,10, 2) Function Block
+(26,10, 6) Function Block
+(26,10, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 27 *)
+---------- Start of Circuit
+(27,-1,-1) LD    1
+(27, 0, 2) Function Block
+(27, 0, 6) Function Block
+(27, 0, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(27,-1,-1) LD    1
+(27, 3, 2) Function Block
+(27, 3, 6) Function Block
+(27, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(27,-1,-1) LD    1
+(27, 6, 2) Function Block
+(27, 6, 6) Function Block
+(27, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(27,-1,-1) LD    1
+(27, 9, 2) Function Block
+(27, 9, 6) Function Block
+(27, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(27,-1,-1) LD    1
+(27,12, 2) Function Block
+(27,12, 6) Function Block
+(27,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 28 *)
+(28, 0, 0) Limites de Torque
+---------- Start of Circuit
+(28,-1,-1) LD    1
+(28, 1, 1) Contact
+(28, 1, 3) Contact
+(28, 1, 5) Function Block
+(28, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(28,-1,-1) LD    1
+(28, 3, 1) Contact
+(28, 3, 3) Contact
+(28, 3, 5) Function Block
+(28, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(28,-1,-1) LD    1
+(28, 5, 1) Contact
+(28, 5, 3) Contact
+(28, 5, 5) Function Block
+(28, 5, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(28,-1,-1) LD    1
+(28, 7, 1) Contact
+(28, 7, 3) Contact
+(28, 7, 5) Function Block
+(28, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(28,-1,-1) LD    1
+(28, 9, 1) Contact
+(28, 9, 3) Contact
+(28, 9, 5) Function Block
+(28, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(28,-1,-1) LD    1
+(28,11, 1) Contact
+(28,11, 3) Contact
+(28,11, 5) Function Block
+(28,11, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(28,-1,-1) LD    1
+(28,13, 1) Contact
+(28,13, 3) Contact
+(28,13, 5) Function Block
+(28,13, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 29 *)
+(29, 0, 0) Limites de Torque
+---------- Start of Circuit
+(29,-1,-1) LD    1
+(29, 1, 1) Contact
+(29, 1, 3) Contact
+(29, 1, 5) Function Block
+(29, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(29,-1,-1) LD    1
+(29, 3, 1) Contact
+(29, 3, 3) Contact
+(29, 3, 5) Function Block
+(29, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(29,-1,-1) LD    1
+(29, 6, 1) Contact
+(29, 6, 5) Function Block
+(29, 6, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 30 *)
+(30, 0, 0) Cálculo Limite de Torque Máximo
+---------- Start of Circuit
+(30,-1,-1) LD    1
+(30, 1, 2) Function Block
+(30, 1, 6) Function Block
+(30, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(30,-1,-1) LD    1
+(30, 4, 2) Function Block
+(30, 4, 6) Function Block
+(30, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(30,-1,-1) LD    1
+(30, 6, 2) Function Block
+(30, 6, 6) Function Block
+(30, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(30,-1,-1) LD    1
+(30, 9, 2) Function Block
+(30, 9, 6) Function Block
+(30, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(30,-1,-1) LD    1
+(30,12, 2) Function Block
+(30,12, 6) Function Block
+(30,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 31 *)
+(31, 0, 0) Cálculo Limite de Torque Máximo
+---------- Start of Circuit
+(31,-1,-1) LD    1
+(31, 1, 2) Function Block
+(31, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(31,-1,-1) LD    1
+(31, 4, 2) Function Block
+(31, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(31,-1,-1) LD    1
+(31, 7, 2) Function Block
+(31, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(31,-1,-1) LD    1
+(31,10, 2) Function Block
+(31,10, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 32 *)
+(32, 0, 0) Referência de Torque
+---------- Start of Circuit
+(32,-1,-1) LD    1
+(32, 1, 4) Function Block
+(32, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(32,-1,-1) LD    1
+(32, 4, 0) Contact
+(32, 4, 1) Contact
+(32, 4, 4) Function Block
+(32, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(32,-1,-1) LD    1
+(32, 6, 0) Contact
+(32, 6, 1) Contact
+(32, 6, 4) Function Block
+(32, 6, 9) Coil
+---------- End of Circuit
+(32, 9, 0) Controle de Magnetização
+---------- Start of Circuit
+(32,-1,-1) LD    1
+(32,10, 0) Contact
+(32,10, 2) Contact
+(32,10, 4) Function Block
+(32,10, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(32,-1,-1) LD    1
+(32,12, 0) Contact
+(32,-1,-1) LD    1
+(32,13, 0) Contact
+(32,13, 2) Contact
+(32,-1,-1) OR    
+(32,12, 4) Function Block
+(32,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 33 *)
+(33, 0, 0) Parada em Rampa
+(33, 1, 0) Parada em Rampa
+---------- Start of Circuit
+(33,-1,-1) LD    1
+(33, 2, 0) Contact
+(33, 2, 1) Contact
+(33, 2, 2) Contact
+(33, 2, 3) Contact
+(33, 2, 4) Contact
+(33, 2, 7) Function Block
+(33, 2, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(33,-1,-1) LD    1
+(33, 4, 2) Function Block
+(33, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(33,-1,-1) LD    1
+(33, 7, 0) Contact
+(33,-1,-1) LD    1
+(33, 8, 0) Contact
+(33,-1,-1) LD    1
+(33, 9, 0) Contact
+(33,-1,-1) OR    
+(33,-1,-1) OR    
+(33, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(33,-1,-1) LD    1
+(33,10, 0) Contact
+(33,10, 2) Contact
+(33,10, 4) Contact
+(33,10, 7) Function Block
+(33,10, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(33,-1,-1) LD    1
+(33,12, 0) Contact
+(33,12, 2) Contact
+(33,12, 4) Contact
+(33,12, 7) Function Block
+(33,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 34 *)
+(34, 0, 0) Referência de Torque
+---------- Start of Circuit
+(34,-1,-1) LD    1
+(34, 1, 0) Contact
+(34, 1, 3) Function Block
+(34, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(34,-1,-1) LD    1
+(34, 3, 0) Contact
+(34, 3, 3) Function Block
+(34, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(34,-1,-1) LD    1
+(34, 6, 4) Function Block
+(34, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(34,-1,-1) LD    1
+(34, 8, 4) Function Block
+(34, 8, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 35 *)
+(35, 7, 0) DATALOGGER - CAN
+
+(* PÁGINA 36 *)
+---------- Start of Circuit
+(36,-1,-1) LD    1
+(36, 1, 0) Contact
+(36, 1, 3) Function Block
+(36, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(36,-1,-1) LD    1
+(36, 3, 0) Contact
+(36, 3, 3) Function Block
+(36, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(36,-1,-1) LD    1
+(36, 5, 0) Contact
+(36, 5, 3) Function Block
+(36, 5, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(36,-1,-1) LD    1
+(36, 7, 0) Contact
+(36, 7, 3) Function Block
+(36, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(36,-1,-1) LD    1
+(36, 9, 0) Contact
+(36, 9, 3) Function Block
+(36, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(36,-1,-1) LD    1
+(36,11, 0) Contact
+(36,11, 3) Function Block
+(36,11, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 37 *)
+---------- Start of Circuit
+(37,-1,-1) LD    1
+(37, 1, 0) Contact
+(37, 1, 3) Function Block
+(37, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(37,-1,-1) LD    1
+(37, 3, 0) Contact
+(37, 3, 3) Function Block
+(37, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(37,-1,-1) LD    1
+(37, 5, 0) Contact
+(37, 5, 3) Function Block
+(37, 5, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(37,-1,-1) LD    1
+(37, 7, 0) Contact
+(37, 7, 3) Function Block
+(37, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(37,-1,-1) LD    1
+(37, 9, 0) Contact
+(37, 9, 3) Function Block
+(37, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(37,-1,-1) LD    1
+(37,11, 0) Contact
+(37,11, 3) Function Block
+(37,11, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 38 *)
+---------- Start of Circuit
+(38,-1,-1) LD    1
+(38, 1, 0) Contact
+(38, 1, 3) Function Block
+(38, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(38,-1,-1) LD    1
+(38, 3, 0) Contact
+(38, 3, 3) Function Block
+(38, 3, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(38,-1,-1) LD    1
+(38, 5, 0) Contact
+(38, 5, 3) Function Block
+(38, 5, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(38,-1,-1) LD    1
+(38, 7, 0) Contact
+(38, 7, 3) Function Block
+(38, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+(38,-1,-1) LD    1
+(38,10, 3) Function Block
+(38,10, 9) Coil
+---------- End of Circuit

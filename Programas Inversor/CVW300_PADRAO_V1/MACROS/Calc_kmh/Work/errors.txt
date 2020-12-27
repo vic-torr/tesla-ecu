@@ -1,0 +1,7 @@
+WEG Ladder Programmer V8.71
+Copyright (C) 1999-2011 WEG. Todos os direitos reservados.
+
+Sintaxe da mensagem :
+Nome do arquivo (Página,Linha,Coluna) :
+Código : mensagem
+

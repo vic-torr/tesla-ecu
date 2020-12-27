@@ -1,0 +1,200 @@
+Address       = 9000
+Initial Value = 
+Tag           = P18
+Description   = 
+
+Address       = 9001
+Initial Value = 
+Tag           = Pedal_Acel %
+Description   = 
+
+Address       = 9002
+Initial Value = 
+Tag           = Vel_Max_Frente
+Description   = 
+
+Address       = 9003
+Initial Value = 
+Tag           = Vel_Max_Ré
+Description   = 
+
+Address       = 9004
+Initial Value = 
+Tag           = Diâmetro_Pneu_mm
+Description   = 
+
+Address       = 9005
+Initial Value = 
+Tag           = Diâmetro_Pneu_m
+Description   = 
+
+Address       = 9006
+Initial Value = 
+Tag           = Aux_Calc
+Description   = 
+
+Address       = 9007
+Initial Value = 
+Tag           = Relação i
+Description   = 
+
+Address       = 9008
+Initial Value = 
+Tag           = Relação i
+Description   = 
+
+Address       = 9009
+Initial Value = 
+Tag           = Vel_m
+Description   = 
+
+Address       = 9010
+Initial Value = 
+Tag           = Aux_Calc1
+Description   = 
+
+Address       = 9011
+Initial Value = 
+Tag           = Aux_Calc_3
+Description   = 
+
+Address       = 9012
+Initial Value = 
+Tag           = Ref_Vel
+Description   = 
+
+Address       = 9013
+Initial Value = 
+Tag           = Vel_Real
+Description   = 
+
+Address       = 9014
+Initial Value = 
+Tag           = Vel_Real_Modulo
+Description   = 
+
+Address       = 9015
+Initial Value = 
+Tag           = PD402
+Description   = 
+
+Address       = 9016
+Initial Value = 
+Tag           = Acel_Frente
+Description   = 
+
+Address       = 9017
+Initial Value = 
+Tag           = Torque_Max
+Description   = 
+
+Address       = 9018
+Initial Value = 
+Tag           = In_Motor
+Description   = 
+
+Address       = 9019
+Initial Value = 
+Tag           = In_Motor
+Description   = 
+
+Address       = 9020
+Initial Value = 
+Tag           = PD295
+Description   = 
+
+Address       = 9021
+Initial Value = 
+Tag           = Imax_Inv
+Description   = 
+
+Address       = 9022
+Initial Value = 
+Tag           = Max_Torque
+Description   = 
+
+Address       = 9023
+Initial Value = 
+Tag           = Fator_Imax
+Description   = 
+
+Address       = 9024
+Initial Value = 
+Tag           = Max_Torque
+Description   = 
+
+Address       = 9025
+Initial Value = 
+Tag           = Fator Desacelera
+Description   = 
+
+Address       = 9026
+Initial Value = 
+Tag           = Acel_Frente
+Description   = 
+
+Address       = 9027
+Initial Value = 
+Tag           = Acel_Ré
+Description   = 
+
+Address       = 9028
+Initial Value = 
+Tag           = Ref_Torque
+Description   = 
+
+Address       = 9029
+Initial Value = 
+Tag           = Ref_Vel
+Description   = 
+
+Address       = 9030
+Initial Value = 
+Tag           = Vel_Freio
+Description   = 
+
+Address       = 9031
+Initial Value = 
+Tag           = Vel_Acel
+Description   = 
+
+Address       = 9032
+Initial Value = 
+Tag           = Aceleração
+Description   = 
+
+Address       = 9033
+Initial Value = 
+Tag           = Desaceleração
+Description   = 
+
+Address       = 9034
+Initial Value = 
+Tag           = Freio
+Description   = 
+
+Address       = 9035
+Initial Value = 
+Tag           = Desacel_Frente
+Description   = 
+
+Address       = 9036
+Initial Value = 
+Tag           = Desacel_Ré
+Description   = 
+
+Address       = 9037
+Initial Value = 
+Tag           = Desacel_Fator
+Description   = 
+
+Address       = 9038
+Initial Value = 
+Tag           = Desacel_Fator
+Description   = 
+
+Address       = 9039
+Initial Value = 
+Tag           = Acel_Ré
+Description   = 
+

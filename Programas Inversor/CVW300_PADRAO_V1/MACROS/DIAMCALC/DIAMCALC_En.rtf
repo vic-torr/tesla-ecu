@@ -1,0 +1,149 @@
+{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1046\deflangfe1046{\fonttbl{\f0\fscript\fprq2\fcharset0 Comic Sans MS;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fnil\fcharset0 MS Sans Serif;}}
+\viewkind4\uc1\pard\ltrpar\nowidctlpar\ri3026\lang1033\ul\b\f0\fs17 USER BLOCK FOR DIAMETER CALCULATION
+\par (DIAMCALC)
+\par \pard\ltrpar\nowidctlpar\ri3026\tx5812\tx8364\ulnone\b0 
+\par \pard\ltrpar\nowidctlpar\ri3026\ul\b General Description:
+\par \ulnone\b0 It calculates the roll diameter in mm according to the relation
+\par between the line speed in m/min and the motor speed in rpm.
+\par It can be used in equipments: PLC1.01, PLC2.00 and POS2.00.
+\par 
+\par \ul\b Input Parameters:
+\par \ulnone Speed (float)\b0  - Line speed in m/min
+\par \b RPM (float)\b0  - Motor speed in rpm 
+\par \b i (float)\b0  - Ratio to belt or gearbox\b  
+\par Dmin (float)\b0  - Minimum roll diameter in mm (core)
+\par \b Dmax (float)\b0  - Maximum roll diameter in mm 
+\par \b EnSpeed (float)\b0  - Line speed in m/min for enable the diameter
+\par calculation 
+\par \b Tf (float)\b0  - Time constant in ms for the filter 
+\par \b Ts (word*)\b0  - Sampling time in ms for the filter
+\par \b Inv_On (bit)\b0  - It indicates if the inverter has been enabled
+\par \b Hold (bit)\b0  - Freeze condition (inhibits) the calculated diameter
+\par value
+\par \b Preset (bit)\b0  - Command for transferring the Dmin value to Df
+\par (begin of a new roll)
+\par \b EnTrip (bit)\b0  - Enables the abnormality detection in the diameter
+\par calculation
+\par 
+\par \ul\b Output Diameter:
+\par \ulnone D (float**)\b0  - Calculated diameter after the filter in mm
+\par \b Dcalc (float)\b0  - Instantaneous calculated diameter in mm
+\par \b Aux_D (float)\b0  - Auxiliary for the calculation of the diameter
+\par \b Aux_T (word)\b0  - Auxiliary for the time of the sampling time
+\par \b Aux_Ts (bit)\b0  - Auxiliary for sampling time
+\par \b Trip (bit)\b0  - Abnormality detection in the diameter calculation
+\par 
+\par \ul\b Notes
+\par \ulnone 1)\b0  This user block uses the following markers, therefore,
+\par \b don't use \b0 them in user program:
+\par \pard\ltrpar\nowidctlpar\li720\ri3026 -BIT: MX3407, MX3406, MX3405
+\par -FLOAT: MF9174, MF9173
+\par 
+\par \pard\ltrpar\nowidctlpar\ri3026\b 2)\b0  The \ldblquote Output Parameters" markers must be of \b exclusive use
+\par \b0 (they can not be used as destination data in other blocks in the
+\par user program), because they can store values that will be used in 
+\par next scan for this user block.
+\par 
+\par \b 3)\b0  \b * \b0 The value must be always higher than the board scan cycle
+\par (P751)\b .\b0 
+\par \ul\b 
+\par \ulnone 4)\b0  \b **\b0  - Marker should be of \b retentive float \b0 type\b .\b0 
+\par \ul\b 
+\par Operation:
+\par \ulnone\b0 The effective roll diameter is calculated by the division of the
+\par line speed by the rotation of the drive roll, as shown below:
+\par \lang1024\f1\fs20 
+\par \pard\ltrpar\nowidctlpar\lang1046\f2\fs17{\pict\wmetafile8\picw4101\pich873\picwgoal2325\pichgoal495 
+0100090000035e02000008001c00000000001400000026060f001e00ffffffff04001400000057
+6f72640e004d6963726f736f667420576f7264050000000b0200000000050000000c0281000402
+1c000000fb021000070000000000bc02000000000102022253797374656d0000350e661200000a
+0026008a0100000000ffffffff80e31300040000002d0100000500000002010100000005000000
+0902000000021c000000fb02ceff0000000000009001000000000440001254696d6573204e6577
+20526f6d616e00b8a4e777c1a4e7772030e977350e6612040000002d010100030000001e000700
+0000160481000402000000001000000026060f001600ffffffff0000ffffffffffffffff060200
+0082000000030000001e00050000002e0100000000050000000a02000000000500000009020000
+0000050000000102ffffff0007000000fc020100000000000000040000002d01020008000000fa
+0205000100000000000000040000002d0103000400000003010800070000001204810081000402
+0502050000000b0200000000050000000c02e003800f0500000009020000000005000000020101
+000000050000000102ffffff00050000002e0118000000050000000c02e003800f120000002606
+0f001a00ffffffff000010000000c0ffffffb5ffffff400f0000950300000b00000026060f000c
+004d617468547970650000c00008000000fa0200001000000000000000040000002d0104000500
+00000b02000000000500000014020002060505000000130200022c0f1c000000fb0280fe000000
+0000009001000000000402001054696d6573204e657720526f6d616e00b8a4e777c1a4e7772030
+e977350e6612040000002d01050009000000320a8a0353090300000052504d001c000000fb0280
+fe0000000000009001000000a10402001054696d6573204e657720526f6d616e00b8a4e777c1a4
+e7772030e977350e6612040000002d01060004000000f001050008000000320a8a03b707010000
+00f0501c000000fb0280fe0000000000009001000000000402001054696d6573204e657720526f
+6d616e00b8a4e777c1a4e7772030e977350e6612040000002d01050004000000f0010600080000
+00320a7101ac0e0100000069500b000000320a7101020907000000286d2f6d696e290008000000
+320a7101ae0801000000206d0a000000320a71010e050500000053706565646e09000000320a60
+023a000400000044286d291c000000fb0280fe0000000000009001000000020402001053796d62
+6f6c0000c40e0a19e8bf1300b8a4e777c1a4e7772030e977350e6612040000002d010600040000
+00f001050008000000320a8a03b80801000000d72808000000320a71011d0e01000000d7280800
+0000320a6002cf03010000003d280a00000026060f000a00ffffffff0100000000001c000000fb
+021000070000000000bc02000000000402022253797374656d0000750f0a6fe8bf1300b8a4e777
+c1a4e7772030e977350e6612040000002d01050004000000f001060007000000fc020000ffffff
+000000040000002d01060008000000fa0200000000000000000000040000002d01070004000000
+2701ffff0800000026060f000600ffffffff0100040000002701ffff040000002d010000030000
+000000
+}\lang1024\f1\fs20 
+\par \pard\ltrpar\nowidctlpar\ri3026\lang1033\f0\fs17 
+\par The enable of the calculated diameter update for the input filter
+\par which will result in the output diameter  "D", is carried out by
+\par comparing the effective line speed with the parameter content
+\par "EnSpeed", plus the signal "Inv_On", without the signal "Hold"
+\par and without the condition "Trip". The input "Hold" represents an
+\par external disable condition, as for example, a material detecting 
+\par sensor indicating that there is no material present to be wound.
+\par The condition "Trip" indicates that anything happened with the
+\par winding process resulting in very different diameter calculation
+\par than the diameter that was being displayed. For instance, if the
+\par material to be wound breaks, the motor will accelerate decreasing
+\par sharply the value of the calculated diameter. If the "Trip"
+\par condition is detected, the calculation process is not disabled, but
+\par only is not updated more. If the "Trip" condition is not more
+\par present, the value will be updated automatically without require
+\par the reset of the "Trip" condition.
+\par The parameter "Tf" must be set to a high value, thus preventing
+\par travel errors.  We recommend setting a value higher than 5000ms.
+\par The parameter "Ts", indicates the sampling time, i.e., in how many
+\par time the calculated diameter will be read and updated inn the filter
+\par equation. We recommend setting a value higher than 50ms. Please
+\par check the value of the PLC board scan cycle, which must be higher
+\par than the scan cycle.
+\par 
+\par \ul\b Example:
+\par \ulnone\b0 Configuring the user block as shown below:
+\par 
+\par \ul Input
+\par \ulnone Speed - %MF9000
+\par RPM - %MF9001
+\par i - 3.0
+\par Dmin - 100
+\par Dmax - 600
+\par EnSpeed - 10.0
+\par Tf - 5000.0
+\par Ts - 50
+\par Inv_On - %MX2000
+\par Hold - %MX2001
+\par Preset - %MX2002
+\par EnTrip - %MX2003
+\par 
+\par \ul Output
+\par \ulnone D - %MF9500
+\par Dcalc - %MF9010
+\par Aux_D - %MF9011
+\par Aux_T - %MW7000
+\par Aux_Ts - %MX2010
+\par Trip - %MX2011
+\par 
+\par If the logic lever at "Inv_On" is "1", and the logic level at "Hold"
+\par is "0", and  the line speed is 450 m/min (Speed) and the motor
+\par speed is 900 rpm (RPM), we will have a diameter (D) of
+\par 477.4 mm.
+\par \ul\b ________________________________________________
+\par \ulnone WEG S.A.
+\par \b0 Version: 1.00
+\par \lang1046\ul Date: 08/25/2006\b __________________________________\ulnone\b0 
+\par }
+ 

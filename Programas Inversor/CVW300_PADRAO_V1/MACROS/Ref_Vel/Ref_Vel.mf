@@ -1,0 +1,75 @@
+Address       = 9002
+Initial Value = 
+Tag           = Vel_Max_Frente
+Description   = 
+
+Address       = 9003
+Initial Value = 
+Tag           = Vel_Max_Ré
+Description   = 
+
+Address       = 9004
+Initial Value = 
+Tag           = Diâmetro_Pneu_mm
+Description   = 
+
+Address       = 9005
+Initial Value = 
+Tag           = Diâmetro_Pneu_m
+Description   = 
+
+Address       = 9006
+Initial Value = 
+Tag           = Aux_Calc
+Description   = 
+
+Address       = 9007
+Initial Value = 
+Tag           = Relação i
+Description   = 
+
+Address       = 9008
+Initial Value = 
+Tag           = Relação i
+Description   = 
+
+Address       = 9009
+Initial Value = 
+Tag           = Vel_m
+Description   = 
+
+Address       = 9010
+Initial Value = 
+Tag           = Aux_Calc1
+Description   = 
+
+Address       = 9011
+Initial Value = 
+Tag           = Aux_Calc_3
+Description   = 
+
+Address       = 9012
+Initial Value = 
+Tag           = Ref_Vel
+Description   = 
+
+Address       = 9048
+Initial Value = 
+Tag           = Ref_Vel
+Description   = 
+
+Address       = 9049
+Initial Value = 
+Tag           = Vel_Real_Modulo
+Description   = 
+
+Address       = 9057
+Initial Value = 
+Tag           = Vel_Acel
+Description   = 
+
+Address       = 9058
+Initial Value = 
+Tag           = Aceleração
+Description   = 
+

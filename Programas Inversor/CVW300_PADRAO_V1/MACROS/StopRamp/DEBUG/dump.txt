@@ -1,0 +1,78 @@
+(* WEG Ladder Programmer V9.61 *)
+(* Copyright (C) 1999-2013 WEG. Todos os direitos reservados. *)
+
+(* ***** INFORMA합ES PARA DEPURA플O ***** *)
+
+(* P핯INA 1 *)
+( 1, 0, 0) Parada em Rampa
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 1, 2) Function Block
+( 1, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 4, 0) Contact
+( 1, 4, 2) Contact
+( 1, 4, 4) Function Block
+( 1, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 6, 0) Contact
+( 1, 6, 2) Contact
+( 1, 6, 4) Function Block
+( 1, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 9, 0) Contact
+( 1, 9, 1) Contact
+( 1, 9, 4) Function Block
+( 1, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1,11, 0) Contact
+( 1,11, 9) Coil
+---------- End of Circuit
+
+(* P핯INA 2 *)
+( 2, 0, 0) Parada em Rampa
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 1, 0) Contact
+( 2, 1, 2) Function Block
+( 2, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 4, 0) Contact
+( 2, 4, 2) Contact
+( 2, 4, 4) Function Block
+( 2, 4, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 6, 0) Contact
+( 2, 6, 2) Contact
+( 2, 6, 4) Function Block
+( 2, 6, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 9, 0) Contact
+( 2, 9, 2) Contact
+( 2, 9, 4) Function Block
+( 2, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2,11, 0) Contact
+( 2,-1,-1) LD    1
+( 2,12, 0) Contact
+( 2,12, 2) Contact
+( 2,-1,-1) OR    
+( 2,11, 4) Function Block
+( 2,11, 9) Coil
+---------- End of Circuit

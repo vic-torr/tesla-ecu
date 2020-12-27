@@ -1,0 +1,144 @@
+(* WEG Ladder Programmer V9.90 *)
+(* Copyright (C) 1999-2014 WEG. Todos os direitos reservados. *)
+
+(* ***** INFORMAÇÕES PARA DEPURAÇÃO ***** *)
+
+(* PÁGINA 1 *)
+( 1, 0, 0) 1o NÍVEL DE COMPARAÇÃO
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 1, 4) Function Block
+( 1, 1, 9) Coil
+---------- End of Circuit
+( 1, 4, 0) %TORQUE = 1o_TORQ
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 5, 0) Contact
+( 1, 5, 4) Function Block
+( 1, 5, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 2 *)
+( 2, 0, 0) 2o NÍVEL DE COMPARAÇÃO
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 1, 0) Contact
+( 2, 1, 6) Function Block
+( 2, 1, 9) Coil
+---------- End of Circuit
+( 2, 4, 0) VAR_VEL = 2a_VEL - 1a_VEL    |    VAR_TORQ = 2o_TORQ - 1o_TORQ
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 5, 2) Function Block
+( 2, 5, 6) Function Block
+( 2, 5, 9) Coil
+---------- End of Circuit
+( 2, 8, 0) %TORQUE = 1o_TORQ + ( ( VAR_TORQ / VAR_VEL ) x ( VEL_KMH - 1a_VEL ) )
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 9, 2) Function Block
+( 2, 9, 6) Function Block
+( 2, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2,12, 0) Contact
+( 2,12, 2) Function Block
+( 2,12, 6) Function Block
+( 2,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 3 *)
+( 3, 0, 0) 3o NÍVEL DE COMPARAÇÃO
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3, 1, 0) Contact
+( 3, 1, 2) Contact
+( 3, 1, 6) Function Block
+( 3, 1, 9) Coil
+---------- End of Circuit
+( 3, 4, 0) VAR_VEL = 3a_VEL - 2a_VEL    |    VAR_TORQ = 3o_TORQ - 2o_TORQ
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3, 5, 2) Function Block
+( 3, 5, 6) Function Block
+( 3, 5, 9) Coil
+---------- End of Circuit
+( 3, 8, 0) %TORQUE = 2o_TORQ + ( ( VAR_TORQ / VAR_VEL ) x ( VEL_KMH - 2a_VEL ) )
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3, 9, 2) Function Block
+( 3, 9, 6) Function Block
+( 3, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3,12, 0) Contact
+( 3,12, 2) Function Block
+( 3,12, 6) Function Block
+( 3,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 4 *)
+( 4, 0, 0) 4o NÍVEL DE COMPARAÇÃO
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4, 1, 0) Contact
+( 4, 1, 2) Contact
+( 4, 1, 4) Contact
+( 4, 1, 6) Function Block
+( 4, 1, 9) Coil
+---------- End of Circuit
+( 4, 4, 0) VAR_VEL = 4a_VEL - 3a_VEL    |    VAR_TORQ = 4o_TORQ - 3o_TORQ
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4, 5, 2) Function Block
+( 4, 5, 6) Function Block
+( 4, 5, 9) Coil
+---------- End of Circuit
+( 4, 8, 0) %TORQUE = 3o_TORQ + ( ( VAR_TORQ / VAR_VEL ) x ( VEL_KMH - 3a_VEL ) )
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4, 9, 2) Function Block
+( 4, 9, 6) Function Block
+( 4, 9, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 4,-1,-1) LD    1
+( 4,12, 0) Contact
+( 4,12, 2) Function Block
+( 4,12, 6) Function Block
+( 4,12, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 5 *)
+( 5, 0, 0) 5o NÍVEL DE COMPARAÇÃO
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5, 1, 0) Contact
+( 5, 1, 2) Contact
+( 5, 1, 4) Contact
+( 5, 1, 6) Contact
+( 5, 1, 9) Coil
+---------- End of Circuit
+( 5, 2, 0) VAR_VEL = 5a_VEL - 4a_VEL    |    VAR_TORQ = 5o_TORQ - 4o_TORQ
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5, 3, 2) Function Block
+( 5, 3, 6) Function Block
+( 5, 3, 9) Coil
+---------- End of Circuit
+( 5, 6, 0) %TORQUE = 4o_TORQ + ( ( VAR_TORQ / VAR_VEL ) x ( VEL_KMH - 4a_VEL ) )
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5, 7, 2) Function Block
+( 5, 7, 6) Function Block
+( 5, 7, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 5,-1,-1) LD    1
+( 5,10, 0) Contact
+( 5,10, 2) Function Block
+( 5,10, 6) Function Block
+( 5,10, 9) Coil
+---------- End of Circuit

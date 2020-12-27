@@ -1,0 +1,265 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+hadc1	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\adc.c	/^ADC_HandleTypeDef hadc1;$/;"	variable	line:50
+hdma_adc1	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\adc.c	/^DMA_HandleTypeDef hdma_adc1;$/;"	variable	line:51
+MX_ADC1_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\adc.c	/^void MX_ADC1_Init(void)$/;"	function	line:54	signature:(void)
+HAL_ADC_MspInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\adc.c	/^void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)$/;"	function	line:129	signature:(ADC_HandleTypeDef* adcHandle)
+HAL_ADC_MspDeInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\adc.c	/^void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)$/;"	function	line:180	signature:(ADC_HandleTypeDef* adcHandle)
+idRx	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^uint8_t* idRx;$/;"	variable	line:48
+vetRx	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^uint8_t* vetRx;$/;"	variable	line:49
+vetTx	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^uint8_t vetTx[__DLC__];$/;"	variable	line:50
+retry_receive	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^uint8_t retry_receive=0, erro_rec =0, erro_trans =0 ;$/;"	variable	line:51
+erro_rec	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^uint8_t retry_receive=0, erro_rec =0, erro_trans =0 ;$/;"	variable	line:51
+erro_trans	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^uint8_t retry_receive=0, erro_rec =0, erro_trans =0 ;$/;"	variable	line:51
+can_flag_er	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^uint8_t can_flag_er=0;$/;"	variable	line:53
+hcan	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^CAN_HandleTypeDef hcan;$/;"	variable	line:58
+MX_CAN_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void MX_CAN_Init(void)$/;"	function	line:61	signature:(void)
+HAL_CAN_MspInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void HAL_CAN_MspInit(CAN_HandleTypeDef* canHandle)$/;"	function	line:83	signature:(CAN_HandleTypeDef* canHandle)
+HAL_CAN_MspDeInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void HAL_CAN_MspDeInit(CAN_HandleTypeDef* canHandle)$/;"	function	line:122	signature:(CAN_HandleTypeDef* canHandle)
+CAN_ConfigFilter	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void CAN_ConfigFilter(void){$/;"	function	line:151	signature:(void)
+CAN_ConfigFrames	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void CAN_ConfigFrames(void){$/;"	function	line:173	signature:(void)
+CAN_Receive	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void CAN_Receive(){$/;"	function	line:192
+CAN_Transmit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void CAN_Transmit(uint8_t *vet, uint32_t id){$/;"	function	line:212	signature:(uint8_t *vet, uint32_t id)
+Init_RxMes	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\can.c	/^void Init_RxMes(CanRxMsgTypeDef *RxMessage)$/;"	function	line:240	signature:(CanRxMsgTypeDef *RxMessage)
+ctrlStatus	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^ctrl_status_t ctrlStatus;$/;"	variable	line:10
+errorStatus	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^ctrl_error_status_t errorStatus;$/;"	variable	line:11
+idReg	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^id_reg_t idReg;$/;"	variable	line:12
+CAN_SPI_EXTI_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^void CAN_SPI_EXTI_Handler(){$/;"	function	line:17
+CANSPI_Sleep	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^void CANSPI_Sleep(void)$/;"	function	line:23	signature:(void)
+CANSPI_Initialize	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^bool CANSPI_Initialize(void)$/;"	function	line:35	signature:(void)
+CANSPI_Transmit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^uint8_t CANSPI_Transmit(uint16_t id, uint8_t len, uint8_t* data)$/;"	function	line:138	signature:(uint16_t id, uint8_t len, uint8_t* data)
+CANSPI_Receive	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^uint8_t CANSPI_Receive(uCAN_MSG *tempCanMsg)$/;"	function	line:195	signature:(uCAN_MSG *tempCanMsg)
+CANSPI_messagesInBuffer	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^uint8_t CANSPI_messagesInBuffer(void)$/;"	function	line:246	signature:(void)
+CANSPI_isBussOff	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^uint8_t CANSPI_isBussOff(void)$/;"	function	line:266	signature:(void)
+CANSPI_isRxErrorPassive	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^uint8_t CANSPI_isRxErrorPassive(void)$/;"	function	line:281	signature:(void)
+CANSPI_isTxErrorPassive	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^uint8_t CANSPI_isTxErrorPassive(void)$/;"	function	line:296	signature:(void)
+convertReg2ExtendedCANid	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^static uint32_t convertReg2ExtendedCANid(uint8_t tempRXBn_EIDH, uint8_t tempRXBn_EIDL, uint8_t tempRXBn_SIDH, uint8_t tempRXBn_SIDL)$/;"	function	line:311	file:	signature:(uint8_t tempRXBn_EIDH, uint8_t tempRXBn_EIDL, uint8_t tempRXBn_SIDH, uint8_t tempRXBn_SIDL)
+convertReg2StandardCANid	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^static uint32_t convertReg2StandardCANid(uint8_t tempRXBn_SIDH, uint8_t tempRXBn_SIDL)$/;"	function	line:333	file:	signature:(uint8_t tempRXBn_SIDH, uint8_t tempRXBn_SIDL)
+convertCANid2Reg	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\CANSPI.c	/^static void convertCANid2Reg(uint32_t tempPassedInID, uint8_t canIdType, id_reg_t *passedIdReg)$/;"	function	line:346	file:	signature:(uint32_t tempPassedInID, uint8_t canIdType, id_reg_t *passedIdReg)
+MX_DMA_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\dma.c	/^void MX_DMA_Init(void) $/;"	function	line:57	signature:(void)
+vetTx	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint8_t vetTx[8];$/;"	variable	line:11
+vel_motor	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint16_t vel_motor[2],$/;"	variable	line:14
+torque	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					torque[2],$/;"	variable	line:15
+potencia	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					potencia[2],$/;"	variable	line:16
+corr_torque	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					corr_torque[2],$/;"	variable	line:17
+energia_consumida	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					energia_consumida[2],$/;"	variable	line:18
+valor_sobrecarga	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					valor_sobrecarga[2],$/;"	variable	line:19
+temp1_mosf	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					temp1_mosf[2], temp2_mosf[2],$/;"	variable	line:20
+temp2_mosf	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					temp1_mosf[2], temp2_mosf[2],$/;"	variable	line:20
+temp1_motor	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					temp1_motor[2], temp2_motor[2],$/;"	variable	line:21
+temp2_motor	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					temp1_motor[2], temp2_motor[2],$/;"	variable	line:21
+msg_perdidas	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					msg_perdidas[2], cont_busoff[2], estado_can[2],$/;"	variable	line:22
+cont_busoff	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					msg_perdidas[2], cont_busoff[2], estado_can[2],$/;"	variable	line:22
+estado_can	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					msg_perdidas[2], cont_busoff[2], estado_can[2],$/;"	variable	line:22
+estado_inv	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					estado_inv[2], falha_atual[2], alarme_atual[2];$/;"	variable	line:23
+falha_atual	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					estado_inv[2], falha_atual[2], alarme_atual[2];$/;"	variable	line:23
+alarme_atual	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					estado_inv[2], falha_atual[2], alarme_atual[2];$/;"	variable	line:23
+acelerador	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint16_t  acelerador = 0,$/;"	variable	line:26
+vel_roda	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					vel_roda[4],$/;"	variable	line:27
+vel_calculada	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					vel_calculada[2],$/;"	variable	line:28
+vel_calc_motor	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					vel_calc_motor[2],$/;"	variable	line:29
+volante	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					volante = 0,$/;"	variable	line:30
+volante_cru	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					volante_cru = 0,$/;"	variable	line:31
+freio	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					freio = 0,$/;"	variable	line:32
+status_ecu	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					status_ecu = 0,$/;"	variable	line:33
+veloc_total	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					veloc_total = 0,$/;"	variable	line:34
+refVeloc	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					refVeloc[2],$/;"	variable	line:35
+refTorque	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		 			refTorque[2],$/;"	variable	line:36
+refTorqueNeg	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					refTorqueNeg[2],$/;"	variable	line:37
+valor_APPS	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					valor_APPS[2],$/;"	variable	line:38
+refVeloc_ant	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		 			refVeloc_ant[2],$/;"	variable	line:39
+refTorque_ant	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					refTorque_ant[2],$/;"	variable	line:40
+paramControl	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					paramControl = 0,$/;"	variable	line:41
+media_diant	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					media_diant = 0,$/;"	variable	line:42
+media_calc	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					media_calc = 0,$/;"	variable	line:43
+distancia	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					distancia = 0,$/;"	variable	line:44
+dist_calc	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					dist_calc = 0 ,$/;"	variable	line:45
+ADC_DMA	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					ADC_DMA[6];		\/\/[APPS0 ,freio, volante ,APPS1 , AD_extra ,seletora_de_modo]$/;"	variable	line:46
+slip	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint8_t slip[2], slip_ratio[2],$/;"	variable	line:47
+slip_ratio	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint8_t slip[2], slip_ratio[2],$/;"	variable	line:47
+roda_interna	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^					roda_interna;	\/\/ wheel slip de cada roda traseira e a razao entre o obtido e o desejado$/;"	variable	line:48
+habilita	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^bool habilita = false,$/;"	variable	line:52
+runstop	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^			runstop = false,$/;"	variable	line:53
+freiar	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^			freiar = false,$/;"	variable	line:54
+status_comun	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^			status_comun = true,$/;"	variable	line:55
+rev	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^			rev = false,$/;"	variable	line:56
+check_error	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^			check_error = true;$/;"	variable	line:57
+time_init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint32_t time_init = 0,$/;"	variable	line:60
+time_actual	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		 time_actual = 0; \/\/ inicializacao do timer e tempo real depois de subtrair o inicial do atual$/;"	variable	line:61
+estado	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^estado_veiculo_t estado = NEUTRO;$/;"	variable	line:65
+aceleracao	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^modos aceleracao, skidpad, autox, enduro, erro;$/;"	variable	line:67
+skidpad	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^modos aceleracao, skidpad, autox, enduro, erro;$/;"	variable	line:67
+autox	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^modos aceleracao, skidpad, autox, enduro, erro;$/;"	variable	line:67
+enduro	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^modos aceleracao, skidpad, autox, enduro, erro;$/;"	variable	line:67
+erro	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^modos aceleracao, skidpad, autox, enduro, erro;$/;"	variable	line:67
+flag_rtds	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint8_t flag_rtds = 0,$/;"	variable	line:70
+integral_ant	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		integral_ant = 0,$/;"	variable	line:71
+flag_dtl	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		flag_dtl = 0;$/;"	variable	line:72
+integral_error	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^int16_t integral_error = 0, error_area = 0,$/;"	variable	line:75
+error_area	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^int16_t integral_error = 0, error_area = 0,$/;"	variable	line:75
+integral_buffer	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		integral_buffer[10] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },$/;"	variable	line:76
+last_error	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		last_error = 0,$/;"	variable	line:77
+acel_ant	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		acel_ant = 0,$/;"	variable	line:78
+prop_dif	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^		prop_dif[25];$/;"	variable	line:79
+buffer	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint32_t buffer[6];$/;"	variable	line:80
+seta_leds	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void seta_leds(uint8_t led_config) \/\/bit 0 azul, bit 1 verde, bit 2 vermelho$/;"	function	line:88	signature:(uint8_t led_config)
+inicializa_modos	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void inicializa_modos() {$/;"	function	line:106
+pedal_freio_acionado	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^bool pedal_freio_acionado(){$/;"	function	line:158
+botao_habilita_acionado	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^bool botao_habilita_acionado(){$/;"	function	line:162
+contator_fechado	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^bool contator_fechado(){$/;"	function	line:166
+le_chave_modo	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^modos le_chave_modo(){$/;"	function	line:170
+aciona_sirene	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void aciona_sirene(){$/;"	function	line:197
+mensagem_CANSPI_recebida	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void mensagem_CANSPI_recebida(uint16_t id, uint8_t* data) {$/;"	function	line:203	signature:(uint16_t id, uint8_t* data)
+HAL_ADC_ConvCpltCallback	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {$/;"	function	line:211	signature:(ADC_HandleTypeDef* hadc)
+inicializa_adc_dma	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void inicializa_adc_dma() {$/;"	function	line:218
+le_acelerador	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint16_t le_acelerador(uint8_t *flag_error) {$/;"	function	line:226	signature:(uint8_t *flag_error)
+le_volante	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint16_t le_volante() {$/;"	function	line:302
+controle	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void controle() {$/;"	function	line:321
+actual_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void actual_datalogger() {$/;"	function	line:393
+transmite_ecu_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void transmite_ecu_datalogger() {$/;"	function	line:495
+acel_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void acel_datalogger() {$/;"	function	line:508
+skid_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void skid_datalogger() {$/;"	function	line:534
+autox_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void autox_datalogger() {$/;"	function	line:559
+enduro_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void enduro_datalogger() {$/;"	function	line:562
+init_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void init_datalogger() {$/;"	function	line:600
+start_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void start_datalogger() {$/;"	function	line:619
+stop_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void stop_datalogger() {$/;"	function	line:640
+comando_inversor	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void comando_inversor() {$/;"	function	line:659
+transmite_inversores_datalogger	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void transmite_inversores_datalogger(uint16_t id, uint8_t* data) {$/;"	function	line:707	signature:(uint16_t id, uint8_t* data)
+mensagem_inversor_recebida	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void mensagem_inversor_recebida(uint16_t id, uint8_t* data) {$/;"	function	line:717	signature:(uint16_t id, uint8_t* data)
+print_can	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void print_can(uint8_t id, uint16_t* data) {$/;"	function	line:771	signature:(uint8_t id, uint16_t* data)
+PID_control	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^int16_t PID_control(int16_t setpoint, int16_t medida) {$/;"	function	line:780	signature:(int16_t setpoint, int16_t medida)
+Vel_Calc	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void Vel_Calc() \/\/calcula velocidades em rpm, ou decimos de km\/h$/;"	function	line:807
+Dist_Calc	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void Dist_Calc() \/\/calcula distancia percorrida desde o inicio do codigo em metros$/;"	function	line:832
+Diferencial	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void Diferencial() {$/;"	function	line:841
+Diferencial_2	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void Diferencial_2() {$/;"	function	line:899
+inicializa_tab_dif	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void inicializa_tab_dif() {$/;"	function	line:944
+Funcao_Dif	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^int16_t Funcao_Dif() {$/;"	function	line:973
+Controle_arrancada	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void Controle_arrancada() {$/;"	function	line:991
+rampa_torque	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void rampa_torque(){$/;"	function	line:1049
+wheel_slip	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^uint8_t wheel_slip(int selector) {$/;"	function	line:1075	signature:(int selector)
+tc_system	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void tc_system() {$/;"	function	line:1085
+torque_vectoring	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\ecu.c	/^void torque_vectoring (void)$/;"	function	line:1110	signature:(void)
+MX_GPIO_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\gpio.c	/^void MX_GPIO_Init(void)$/;"	function	line:63	signature:(void)
+hi2c1	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\i2c.c	/^I2C_HandleTypeDef hi2c1;$/;"	variable	line:49
+MX_I2C1_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\i2c.c	/^void MX_I2C1_Init(void)$/;"	function	line:52	signature:(void)
+HAL_I2C_MspInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\i2c.c	/^void HAL_I2C_MspInit(I2C_HandleTypeDef* i2cHandle)$/;"	function	line:71	signature:(I2C_HandleTypeDef* i2cHandle)
+HAL_I2C_MspDeInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\i2c.c	/^void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)$/;"	function	line:98	signature:(I2C_HandleTypeDef* i2cHandle)
+modo_selecionado	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\main.c	/^modos modo_selecionado;$/;"	variable	line:30
+tempo_inicial	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\main.c	/^uint32_t tempo_inicial, tempo_final;\/\/variaveis auxiliares para calcular o tempo do loop da main$/;"	variable	line:32
+tempo_final	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\main.c	/^uint32_t tempo_inicial, tempo_final;\/\/variaveis auxiliares para calcular o tempo do loop da main$/;"	variable	line:32
+main	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\main.c	/^int main(void)$/;"	function	line:34	signature:(void)
+SPI_CAN	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^#define SPI_CAN /;"	macro	line:5	file:
+SPI_TIMEOUT	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^#define SPI_TIMEOUT /;"	macro	line:6	file:
+MCP2515_CS_HIGH	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^#define MCP2515_CS_HIGH(/;"	macro	line:7	file:
+MCP2515_CS_LOW	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^#define MCP2515_CS_LOW(/;"	macro	line:8	file:
+MCP2515_Initialize	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^bool MCP2515_Initialize(void)$/;"	function	line:17	signature:(void)
+MCP2515_SetConfigMode	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^bool MCP2515_SetConfigMode(void)$/;"	function	line:35	signature:(void)
+MCP2515_SetNormalMode	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^bool MCP2515_SetNormalMode(void)$/;"	function	line:54	signature:(void)
+MCP2515_SetSleepMode	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^bool MCP2515_SetSleepMode(void)$/;"	function	line:73	signature:(void)
+MCP2515_Reset	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_Reset(void)$/;"	function	line:92	signature:(void)
+MCP2515_ReadByte	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^uint8_t MCP2515_ReadByte (uint8_t address)$/;"	function	line:102	signature:(uint8_t address)
+MCP2515_ReadRxSequence	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_ReadRxSequence(uint8_t instruction, uint8_t *data, uint8_t length)$/;"	function	line:118	signature:(uint8_t instruction, uint8_t *data, uint8_t length)
+MCP2515_WriteByte	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_WriteByte(uint8_t address, uint8_t data)$/;"	function	line:129	signature:(uint8_t address, uint8_t data)
+MCP2515_WriteByteSequence	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_WriteByteSequence(uint8_t startAddress, uint8_t endAddress, uint8_t *data)$/;"	function	line:141	signature:(uint8_t startAddress, uint8_t endAddress, uint8_t *data)
+MCP2515_LoadTxSequence	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_LoadTxSequence(uint8_t instruction, uint8_t *idReg, uint8_t dlc, uint8_t *data)$/;"	function	line:153	signature:(uint8_t instruction, uint8_t *idReg, uint8_t dlc, uint8_t *data)
+MCP2515_LoadTxBuffer	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_LoadTxBuffer(uint8_t instruction, uint8_t data)$/;"	function	line:166	signature:(uint8_t instruction, uint8_t data)
+MCP2515_RequestToSend	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_RequestToSend(uint8_t instruction)$/;"	function	line:177	signature:(uint8_t instruction)
+MCP2515_ReadStatus	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^uint8_t MCP2515_ReadStatus(void)$/;"	function	line:187	signature:(void)
+MCP2515_GetRxStatus	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^uint8_t MCP2515_GetRxStatus(void)$/;"	function	line:202	signature:(void)
+MCP2515_BitModify	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^void MCP2515_BitModify(uint8_t address, uint8_t mask, uint8_t data)$/;"	function	line:217	signature:(uint8_t address, uint8_t mask, uint8_t data)
+SPI_Tx	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^static void SPI_Tx(uint8_t data)$/;"	function	line:230	file:	signature:(uint8_t data)
+SPI_TxBuffer	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^static void SPI_TxBuffer(uint8_t *buffer, uint8_t length)$/;"	function	line:236	file:	signature:(uint8_t *buffer, uint8_t length)
+SPI_Rx	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^static uint8_t SPI_Rx(void)$/;"	function	line:242	file:	signature:(void)
+SPI_RxBuffer	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\MCP2515.c	/^static void SPI_RxBuffer(uint8_t *buffer, uint8_t length)$/;"	function	line:250	file:	signature:(uint8_t *buffer, uint8_t length)
+hspi2	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\spi.c	/^SPI_HandleTypeDef hspi2;$/;"	variable	line:49
+MX_SPI2_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\spi.c	/^void MX_SPI2_Init(void)$/;"	function	line:52	signature:(void)
+HAL_SPI_MspInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\spi.c	/^void HAL_SPI_MspInit(SPI_HandleTypeDef* spiHandle)$/;"	function	line:74	signature:(SPI_HandleTypeDef* spiHandle)
+HAL_SPI_MspDeInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\spi.c	/^void HAL_SPI_MspDeInit(SPI_HandleTypeDef* spiHandle)$/;"	function	line:107	signature:(SPI_HandleTypeDef* spiHandle)
+HAL_MspInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_hal_msp.c	/^void HAL_MspInit(void)$/;"	function	line:49	signature:(void)
+SPEED1_PIN_N	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED1_PIN_N /;"	macro	line:43	file:
+SPEED2_PIN_N	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED2_PIN_N /;"	macro	line:44	file:
+SPEED3_PIN_N	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED3_PIN_N /;"	macro	line:45	file:
+SPEED4_PIN_N	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED4_PIN_N /;"	macro	line:46	file:
+SPEED1_PIN_INV	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED1_PIN_INV /;"	macro	line:47	file:
+SPEED2_PIN_INV	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED2_PIN_INV /;"	macro	line:48	file:
+SPEED3_PIN_INV	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED3_PIN_INV /;"	macro	line:49	file:
+SPEED4_PIN_INV	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define SPEED4_PIN_INV /;"	macro	line:50	file:
+TIMER_OVERFLOW	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	#define TIMER_OVERFLOW /;"	macro	line:51	file:
+speed_pin_n	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint32_t speed_pin_n [4] = {SPEED1_PIN_N, SPEED2_PIN_N, SPEED3_PIN_N, SPEED4_PIN_N}; \/\/pinos de interrup��o;$/;"	variable	line:52
+speed_pin_inv	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint32_t speed_pin_inv [4] = {SPEED1_PIN_INV, SPEED2_PIN_INV, SPEED3_PIN_INV, SPEED4_PIN_INV};$/;"	variable	line:53
+speed_deb_time	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint16_t speed_deb_time [4] = {0,0,0,0};$/;"	variable	line:54
+speed_deb_flag	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint16_t speed_deb_flag [4] = {0,0,0,0};$/;"	variable	line:55
+speed_deb_cnt	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint16_t speed_deb_cnt [4] = {0,0,0,0};$/;"	variable	line:56
+speed_t_flag	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint8_t speed_t_flag[4], apps_t_flag;$/;"	variable	line:57
+apps_t_flag	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint8_t speed_t_flag[4], apps_t_flag;$/;"	variable	line:57
+speed_t_total	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint32_t speed_t_total[4], speed_t0[4], speed_t1[4], timer2_value;$/;"	variable	line:58
+speed_t0	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint32_t speed_t_total[4], speed_t0[4], speed_t1[4], timer2_value;$/;"	variable	line:58
+speed_t1	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint32_t speed_t_total[4], speed_t0[4], speed_t1[4], timer2_value;$/;"	variable	line:58
+timer2_value	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint32_t speed_t_total[4], speed_t0[4], speed_t1[4], timer2_value;$/;"	variable	line:58
+refresh_speed	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint8_t refresh_speed;$/;"	variable	line:60
+timer_speed_ant	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint16_t timer_speed_ant=0, timer_speed_atual=0, time_speed_refresh=0;$/;"	variable	line:61
+timer_speed_atual	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint16_t timer_speed_ant=0, timer_speed_atual=0, time_speed_refresh=0;$/;"	variable	line:61
+time_speed_refresh	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^	uint16_t timer_speed_ant=0, timer_speed_atual=0, time_speed_refresh=0;$/;"	variable	line:61
+NMI_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void NMI_Handler(void)$/;"	function	line:85	signature:(void)
+HardFault_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void HardFault_Handler(void)$/;"	function	line:98	signature:(void)
+MemManage_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void MemManage_Handler(void)$/;"	function	line:116	signature:(void)
+BusFault_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void BusFault_Handler(void)$/;"	function	line:134	signature:(void)
+UsageFault_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void UsageFault_Handler(void)$/;"	function	line:152	signature:(void)
+SVC_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void SVC_Handler(void)$/;"	function	line:170	signature:(void)
+DebugMon_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void DebugMon_Handler(void)$/;"	function	line:183	signature:(void)
+PendSV_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void PendSV_Handler(void)$/;"	function	line:196	signature:(void)
+SysTick_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void SysTick_Handler(void)$/;"	function	line:209	signature:(void)
+EXTI0_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void EXTI0_IRQHandler(void)$/;"	function	line:231	signature:(void)
+EXTI1_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void EXTI1_IRQHandler(void)$/;"	function	line:247	signature:(void)
+DMA1_Channel1_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void DMA1_Channel1_IRQHandler(void)$/;"	function	line:263	signature:(void)
+ADC1_2_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void ADC1_2_IRQHandler(void)$/;"	function	line:277	signature:(void)
+USB_HP_CAN1_TX_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void USB_HP_CAN1_TX_IRQHandler(void)$/;"	function	line:291	signature:(void)
+USB_LP_CAN1_RX0_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void USB_LP_CAN1_RX0_IRQHandler(void)$/;"	function	line:305	signature:(void)
+EXTI9_5_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void EXTI9_5_IRQHandler(void)$/;"	function	line:320	signature:(void)
+TIM2_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void TIM2_IRQHandler(void)$/;"	function	line:336	signature:(void)
+TIM3_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void TIM3_IRQHandler(void)$/;"	function	line:350	signature:(void)
+EXTI15_10_IRQHandler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void EXTI15_10_IRQHandler(void)$/;"	function	line:364	signature:(void)
+Speed_Interrupt_Handle	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\stm32f1xx_it.c	/^void Speed_Interrupt_Handle() \/\/leitura de numero de timers$/;"	function	line:392
+led_conf	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^cores_t led_conf;$/;"	variable	line:12
+error_count	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^uint8_t error_count=0; \/\/ conta erros, quantas vezes o programa caiu no error handler$/;"	variable	line:14
+erro_milis	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^uint16_t erro_milis =0, erro_milis_ant = 0, erro_periodo = 1000;$/;"	variable	line:15
+erro_milis_ant	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^uint16_t erro_milis =0, erro_milis_ant = 0, erro_periodo = 1000;$/;"	variable	line:15
+erro_periodo	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^uint16_t erro_milis =0, erro_milis_ant = 0, erro_periodo = 1000;$/;"	variable	line:15
+inicializa_perifericos	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^void inicializa_perifericos()$/;"	function	line:17
+atualiza_watchdog	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^void atualiza_watchdog(){$/;"	function	line:43
+pisca_led_erro	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^void pisca_led_erro(){$/;"	function	line:47
+SystemClock_Config	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^void SystemClock_Config(void)$/;"	function	line:60	signature:(void)
+_Error_Handler	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^void _Error_Handler(char *file, int line)$/;"	function	line:115	signature:(char *file, int line)
+assert_failed	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\sys.c	/^void assert_failed(uint8_t* file, uint32_t line)$/;"	function	line:131	signature:(uint8_t* file, uint32_t line)
+HSE_VALUE	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^  #define HSE_VALUE /;"	macro	line:96	file:
+HSI_VALUE	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^  #define HSI_VALUE /;"	macro	line:101	file:
+VECT_TAB_OFFSET	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^#define VECT_TAB_OFFSET /;"	macro	line:113	file:
+SystemCoreClock	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^  uint32_t SystemCoreClock         = 24000000U;        \/*!< System Clock Frequency (Core Clock) *\/$/;"	variable	line:137
+SystemCoreClock	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^  uint32_t SystemCoreClock         = 72000000U;        \/*!< System Clock Frequency (Core Clock) *\/$/;"	variable	line:139
+AHBPrescTable	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^const uint8_t AHBPrescTable[16U] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	variable	line:142
+APBPrescTable	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^const uint8_t APBPrescTable[8U] =  {0, 0, 0, 0, 1, 2, 3, 4};$/;"	variable	line:143
+SystemInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^void SystemInit (void)$/;"	function	line:175	signature:(void)
+SystemCoreClockUpdate	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^void SystemCoreClockUpdate (void)$/;"	function	line:265	signature:(void)
+SystemInit_ExtMemCtl	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\system_stm32f1xx.c	/^void SystemInit_ExtMemCtl(void) $/;"	function	line:390	signature:(void)
+conta_t_dtl	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^uint8_t conta_t_dtl = 0;$/;"	variable	line:59
+timer_estouros	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^int16_t timer_estouros, conta_delay;$/;"	variable	line:60
+conta_delay	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^int16_t timer_estouros, conta_delay;$/;"	variable	line:60
+tempo_teste	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^int16_t tempo_teste=0;$/;"	variable	line:61
+dist_pr	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^uint8_t dist_pr=0;$/;"	variable	line:62
+htim2	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^TIM_HandleTypeDef htim2;$/;"	variable	line:65
+htim3	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^TIM_HandleTypeDef htim3;$/;"	variable	line:66
+MX_TIM2_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^void MX_TIM2_Init(void)$/;"	function	line:68	signature:(void)
+MX_TIM3_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^void MX_TIM3_Init(void)$/;"	function	line:99	signature:(void)
+HAL_TIM_Base_MspInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* tim_baseHandle)$/;"	function	line:131	signature:(TIM_HandleTypeDef* tim_baseHandle)
+HAL_TIM_Base_MspDeInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)$/;"	function	line:166	signature:(TIM_HandleTypeDef* tim_baseHandle)
+Timer2_Config	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^void Timer2_Config()$/;"	function	line:202
+delay_ms_ecu	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^void delay_ms_ecu(int16_t n_ms)$/;"	function	line:216	signature:(int16_t n_ms)
+HAL_TIM_PeriodElapsedCallback	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\tim.c	/^void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)$/;"	function	line:232	signature:(TIM_HandleTypeDef *htim)
+hwwdg	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\wwdg.c	/^WWDG_HandleTypeDef hwwdg;$/;"	variable	line:47
+MX_WWDG_Init	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\wwdg.c	/^void MX_WWDG_Init(void)$/;"	function	line:50	signature:(void)
+HAL_WWDG_MspInit	D:\Tesla\ECU\Codigos\ECU_V_2_00\Src\wwdg.c	/^void HAL_WWDG_MspInit(WWDG_HandleTypeDef* wwdgHandle)$/;"	function	line:65	signature:(WWDG_HandleTypeDef* wwdgHandle)

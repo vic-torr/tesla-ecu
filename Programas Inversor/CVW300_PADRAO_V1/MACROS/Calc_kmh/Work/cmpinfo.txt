@@ -1,0 +1,51 @@
+WEG Ladder Programmer V6.22
+Copyright (C) 1999-2007 WEG. Todos os direitos reservados.
+
+***** INFORMAÇÕES SOBRE O COMPILADOR *****
+
+- Equipamento     : PLC1.01
+- Projeto         : CALC_KMH.MLD
+- Hora            : 11:20:40
+- Data            : Monday, July 23, 2007
+- Tempo decorrido : 1 segundo(s)
+
+***** INFORMAÇÕES DO PROGRAMA *****
+
+- Páginas         : 2
+- Lógicas         : 5
+- Elementos       : 15
+
+***** INFORMAÇÕES SOBRE OS ARQUIVOS *****
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\calc_kmh.mrk
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\calc_kmh.din
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\calc_kmh.dou
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\calc_kmh.mld
+- Hora            : 11:19:31
+- Data            : Monday, July 23, 2007
+- Tamanho         : 1221 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\work\errors.txt
+- Hora            : 11:20:39
+- Data            : Monday, July 23, 2007
+- Tamanho         : 176 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\work\errors.crd
+- Hora            : 11:20:39
+- Data            : Monday, July 23, 2007
+- Tamanho         : 0 bytes
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\work\cameprofiles.bin
+- >>>>              Arquivo não gerado
+
+- Nome            : c:\weg\wlp v6.22\projects\trolebus_busscar\macros\calc_kmh\work\calc_kmh.bin
+- Hora            : 11:20:40
+- Data            : Monday, July 23, 2007
+- Tamanho         : 776 bytes
+

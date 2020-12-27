@@ -1,0 +1,72 @@
+Version  = 1
+
+Symbol   = motorSpeed
+Type     = %PD: Drive Parameter
+Address  = 2
+Minimum  = 0.0
+Maximum  = 3000.0
+Signed   = 0
+Color    = RGB(0,0,0)
+Format   = %.1f
+
+Symbol   = speedRef
+Type     = %PD: Drive Parameter
+Address  = 1
+Minimum  = 0.0
+Maximum  = 3000.0
+Signed   = 0
+Color    = RGB(255,0,0)
+Format   = %.1f
+
+Symbol   = torque
+Type     = %PD: Drive Parameter
+Address  = 9
+Minimum  = 0.0
+Maximum  = 100.0
+Signed   = 0
+Color    = RGB(0,255,0)
+Format   = %.1f
+
+Symbol   = motorCurrent
+Type     = %PD: Drive Parameter
+Address  = 3
+Minimum  = 0.0
+Maximum  = 300.0
+Signed   = 0
+Color    = RGB(0,0,255)
+Format   = %.1f
+
+Symbol   = refTorque
+Type     = %PD: Drive Parameter
+Address  = 169
+Minimum  = 0.0
+Maximum  = 100.0
+Signed   = 0
+Color    = RGB(255,128,0)
+Format   = %.1f
+
+Symbol   = outputPower
+Type     = %PD: Drive Parameter
+Address  = 10
+Minimum  = 0.0
+Maximum  = 15.0
+Signed   = 0
+Color    = RGB(255,0,255)
+Format   = %.1f
+
+X Scale  = 120
+Time Base= 100
+Init Time= 14:40:36
+
+0 -0.0
+
+0 -0.0
+
+0 -0.0
+
+0 -0.0
+
+0 -0.0
+
+0 -0.0
+

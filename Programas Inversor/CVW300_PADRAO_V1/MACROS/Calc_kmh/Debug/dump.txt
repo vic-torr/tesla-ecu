@@ -1,0 +1,43 @@
+(* WEG Ladder Programmer V8.71 *)
+(* Copyright (C) 1999-2011 WEG. Todos os direitos reservados. *)
+
+(* ***** INFORMAÇÕES PARA DEPURAÇÃO ***** *)
+
+(* PÁGINA 1 *)
+( 1, 0, 0) DIAMETRO EM METROS
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 1, 2) Function Block
+( 1, 1, 6) Function Block
+( 1, 1, 9) Coil
+---------- End of Circuit
+( 1, 5, 0) RELAÇÃO MECÂNICA COM 3 CASAS DE PRECISÃO
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 6, 2) Function Block
+( 1, 6, 6) Function Block
+( 1, 6, 9) Coil
+---------- End of Circuit
+( 1,10, 0) VELOCIDADE REAL MOTOR
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1,11, 1) Function Block
+( 1,11, 4) Function Block
+( 1,11, 7) Function Block
+( 1,11, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 2 *)
+( 2, 0, 0) KM/H = ( DIAMETRO_RODA x RPM_MOTOR x 60 x PI ) / RELACAO_MECANICA x 1000
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 1, 2) Function Block
+( 2, 1, 6) Function Block
+( 2, 1, 9) Coil
+---------- End of Circuit
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 5, 2) Function Block
+( 2, 5, 6) Function Block
+( 2, 5, 9) Coil
+---------- End of Circuit

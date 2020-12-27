@@ -1,0 +1,65 @@
+Address       = 5000
+Initial Value = 
+Tag           = Aux_Ladder
+Description   = 
+
+Address       = 5001
+Initial Value = 
+Tag           = Habilitado
+Description   = 
+
+Address       = 5002
+Initial Value = 
+Tag           = Pedal_Acionado
+Description   = 
+
+Address       = 5003
+Initial Value = 
+Tag           = Modo_Frente
+Description   = 
+
+Address       = 5004
+Initial Value = 
+Tag           = Modo_Ré
+Description   = 
+
+Address       = 5005
+Initial Value = 
+Tag           = Vel_Max
+Description   = 
+
+Address       = 5006
+Initial Value = 
+Tag           = Vel_Reduzida
+Description   = 
+
+Address       = 5007
+Initial Value = 
+Tag           = Modo Aceleração
+Description   = 
+
+Address       = 5008
+Initial Value = 
+Tag           = Vel = 0
+Description   = 
+
+Address       = 5009
+Initial Value = 
+Tag           = Vel >5 rpm
+Description   = 
+
+Address       = 5021
+Initial Value = 
+Tag           = Bat_Baixa
+Description   = 
+
+Address       = 5025
+Initial Value = 
+Tag           = Freio
+Description   = 
+
+Address       = 5150
+Initial Value = 
+Tag           = Habilitado
+Description   = 
+

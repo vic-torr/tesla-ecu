@@ -1,0 +1,10 @@
+Address       = 9000
+Initial Value = 
+Tag           = vel_rotor_float
+Description   = 
+
+Address       = 9001
+Initial Value = 
+Tag           = vel_sincrona
+Description   = 
+

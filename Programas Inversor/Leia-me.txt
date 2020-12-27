@@ -1,0 +1,11 @@
+Os arquivos deste diretório são do software da WEG e ficam no seguinte diretório:
+"\ProgramFiles\WEG\WLP V11.00\PROJECTS\".
+Para carregar o programa sem mover as pastas, utilize o arquivos .bkp e a funçãp
+restaurar backup.
+Dentro de cada pasta há arquivos de trend .tr (gráficos) e de monitorar variaveis
+.mv.
+
+AcionaMotorCAN -> controle do motor por referencia de velocidade.
+AcionaMotorCAN_Torque -> por referencia de torque.
+CAN_Rx_Tx -> simple teste de envio e recebimento de pacote de dados.
+CVW300_PADRAO_V1 -> aplicativo que a WEG mandou.

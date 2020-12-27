@@ -1,0 +1,55 @@
+(* WEG Ladder Programmer V7.23 *)
+(* Copyright (C) 1999-2008 WEG. Todos os direitos reservados. *)
+
+(* ***** INFORMAÇÕES PARA DEPURAÇÃO ***** *)
+
+(* PÁGINA 1 *)
+( 1, 0, 0) ENTRADA ANALÓGICA PEDAL (CONVERTIDO PARA 0 ~ 16000)
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 1, 2) Function Block
+( 1, 1, 6) Function Block
+( 1, 1, 9) Coil
+---------- End of Circuit
+( 1, 4, 0) CORRENTE MÁXIMA DO POTENCIÔMETRO COM O PEDAL PRESSIONADO (CONVERTIDO PARA 0 ~ 16000)
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 5, 2) Function Block
+( 1, 5, 9) Coil
+---------- End of Circuit
+( 1, 8, 0) CORRETE MÍNIMA DO POTENCIÔMETRO COM O PEDAL SOLTO (CONVERTIDO PARA 0 ~ 16000)
+---------- Start of Circuit
+( 1,-1,-1) LD    1
+( 1, 9, 2) Function Block
+( 1, 9, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 2 *)
+( 2, 0, 0) RANGE = V_MAX - V_MIN   |    PRESS = E_ANALOG - V_MIN
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 1, 2) Function Block
+( 2, 1, 6) Function Block
+( 2, 1, 9) Coil
+---------- End of Circuit
+( 2, 4, 0) %PRESS = ( PRESS / RANGE ) x 100
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 5, 2) Function Block
+( 2, 5, 6) Function Block
+( 2, 5, 9) Coil
+---------- End of Circuit
+( 2, 8, 0) SAÍDA É LIMITADA ENTRE 0 ~ 100%
+---------- Start of Circuit
+( 2,-1,-1) LD    1
+( 2, 9, 4) Function Block
+( 2, 9, 9) Coil
+---------- End of Circuit
+
+(* PÁGINA 3 *)
+( 3, 0, 0) SE PEDAL FOR PRESSIONADO MAIS QUE O MÍNIMO, INDICA PEDAL PRESSIONADO
+---------- Start of Circuit
+( 3,-1,-1) LD    1
+( 3, 1, 4) Function Block
+( 3, 1, 9) Coil
+---------- End of Circuit

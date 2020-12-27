@@ -1,0 +1,205 @@
+Address       = 5000
+Initial Value = 
+Tag           = Aux_Ladder
+Description   = 
+
+Address       = 5001
+Initial Value = 
+Tag           = Veículo_Ligado
+Description   = 
+
+Address       = 5002
+Initial Value = 
+Tag           = Pedal_Acionado
+Description   = 
+
+Address       = 5003
+Initial Value = 
+Tag           = Chave_Frente
+Description   = 
+
+Address       = 5004
+Initial Value = 
+Tag           = Chave_Ré
+Description   = 
+
+Address       = 5005
+Initial Value = 
+Tag           = Freio
+Description   = 
+
+Address       = 5006
+Initial Value = 
+Tag           = Drive Habilitado
+Description   = 
+
+Address       = 5007
+Initial Value = 
+Tag           = Modo_Aceleração
+Description   = 
+
+Address       = 5008
+Initial Value = 
+Tag           = Vel=0
+Description   = 
+
+Address       = 5009
+Initial Value = 
+Tag           = Chave_Frente
+Description   = 
+
+Address       = 5010
+Initial Value = 
+Tag           = Chave_Ré
+Description   = 
+
+Address       = 5011
+Initial Value = 
+Tag           = Ch_Lebre
+Description   = 
+
+Address       = 5012
+Initial Value = 
+Tag           = Chave_Freio
+Description   = 
+
+Address       = 5013
+Initial Value = 
+Tag           = Modo_Lebre
+Description   = 
+
+Address       = 5014
+Initial Value = 
+Tag           = Modo_Tartaruga
+Description   = 
+
+Address       = 5015
+Initial Value = 
+Tag           = Nível_1
+Description   = 
+
+Address       = 5016
+Initial Value = 
+Tag           = Nível_2
+Description   = 
+
+Address       = 5017
+Initial Value = 
+Tag           = Nível_3
+Description   = 
+
+Address       = 5018
+Initial Value = 
+Tag           = Nível_4
+Description   = 
+
+Address       = 5019
+Initial Value = 
+Tag           = Rampa
+Description   = 
+
+Address       = 5020
+Initial Value = 
+Tag           = Desabilita
+Description   = 
+
+Address       = 5021
+Initial Value = 
+Tag           = Erro_Frente
+Description   = 
+
+Address       = 5022
+Initial Value = 
+Tag           = Erro_Re
+Description   = 
+
+Address       = 5023
+Initial Value = 
+Tag           = Erro_LT
+Description   = 
+
+Address       = 5024
+Initial Value = 
+Tag           = Neutro
+Description   = 
+
+Address       = 5025
+Initial Value = 
+Tag           = Limita_Torque
+Description   = 
+
+Address       = 5026
+Initial Value = 
+Tag           = Nível_0
+Description   = 
+
+Address       = 5027
+Initial Value = 
+Tag           = Nível_00
+Description   = 
+
+Address       = 5028
+Initial Value = 
+Tag           = Aux_Nível_4
+Description   = 
+
+Address       = 5029
+Initial Value = 
+Tag           = Aux_Nível_3
+Description   = 
+
+Address       = 5030
+Initial Value = 
+Tag           = Delay_Hab
+Description   = 
+
+Address       = 5031
+Initial Value = 
+Tag           = Vel 1
+Description   = 
+
+Address       = 5032
+Initial Value = 
+Tag           = Vel 2
+Description   = 
+
+Address       = 5033
+Initial Value = 
+Tag           = Vel 3
+Description   = 
+
+Address       = 5034
+Initial Value = 
+Tag           = Vel 4
+Description   = 
+
+Address       = 5035
+Initial Value = 
+Tag           = Vel 5
+Description   = 
+
+Address       = 5036
+Initial Value = 
+Tag           = Vel 6
+Description   = 
+
+Address       = 5037
+Initial Value = 
+Tag           = Vel 7
+Description   = 
+
+Address       = 5038
+Initial Value = 
+Tag           = Vel 8
+Description   = 
+
+Address       = 5039
+Initial Value = 
+Tag           = Vel 9
+Description   = 
+
+Address       = 5040
+Initial Value = 
+Tag           = Aux_Son
+Description   = 
+

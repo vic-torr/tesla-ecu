@@ -1,0 +1,9 @@
+WEG Ladder Programmer V10.01
+Copyright (C) 1999-2016 WEG. Todos os direitos reservados.
+
+Sintaxe da mensagem :
+Nome do arquivo (Página,Linha,Coluna) :
+Código : mensagem
+
+CVW300_PADRAO_V1.BIN - 0 erro(s), 0 advertência(s)
+- Tamanho do aplicativo : 4548 bytes

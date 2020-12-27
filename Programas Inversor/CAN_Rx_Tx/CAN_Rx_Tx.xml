@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROJECT>
+<SERIALCONFIG address="1" portnumber="9" baudrate="9600" parity="0" stopbits="0" databits="8" ipadress="192.168.0.10" ipport="502" ipunitid="255"/>
+</PROJECT>

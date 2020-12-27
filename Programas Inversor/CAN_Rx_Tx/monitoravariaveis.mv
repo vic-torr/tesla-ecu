@@ -1,0 +1,12 @@
+Tag     = pacotesPerdidos
+Type    = %PD: Drive Parameter
+Address = 709
+
+Tag     = dataIn
+Type    = %MW: Word Marker
+Address = 8100
+
+Tag     = velocidad
+Type    = %PD: Drive Parameter
+Address = 696
+

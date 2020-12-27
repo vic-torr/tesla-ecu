@@ -1,0 +1,20 @@
+Address       = 9050
+Initial Value = 
+Tag           = Km
+Description   = 
+
+Address       = 9052
+Initial Value = 
+Tag           = Km
+Description   = 
+
+Address       = 9054
+Initial Value = 
+Tag           = Contador 2
+Description   = 
+
+Address       = 9055
+Initial Value = 
+Tag           = Contador 2
+Description   = 
+

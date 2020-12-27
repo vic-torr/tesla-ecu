@@ -1,0 +1,31 @@
+WEG Ladder Programmer V10.01
+Copyright (C) 1999-2016 WEG. Todos os direitos reservados.
+
+***** INFORMAÇÕES SOBRE O COMPILADOR *****
+
+- Equipamento        : CVW300
+- Projeto            : CVW300_PADRAO_V1.LDD
+- Hora               : 09:19:49
+- Data               : Wednesday, March 29, 2017
+- Tempo decorrido    : 0 segundo(s)
+
+***** INFORMAÇÕES DO PROGRAMA *****
+
+- Páginas         : 38
+- Lógicas         : 154
+- Elementos       : 581
+
+***** INFORMAÇÕES SOBRE OS ARQUIVOS *****
+
+- Caminho do projeto : c:\weg\wlp v10.01\projects\cvw300_padrao_v1  
+
+- Nome               : cvw300_padrao_v1.ldd
+- Hora               : 09:19:47
+- Data               : Wednesday, March 29, 2017
+- Tamanho            : 20547 bytes
+
+- Nome               : work\cvw300_padrao_v1.bin
+- Hora               : 09:19:49
+- Data               : Wednesday, March 29, 2017
+- Tamanho            : 4548 bytes
+
