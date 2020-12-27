@@ -1,0 +1,19 @@
+sequencia:
+
+fases 
+(referencia da esquerda pra direita
+motor esquerdo vuw
+motor direito  wvu
+
+
+encoder 
+motor esquerdo
+pino 4 - > fio verde
+pino 2 - > fio amarelo
+pino 6 - > fio azul
+
+
+motor direito
+pino 2 - > fio verde
+pino 4 - > fio amarelo
+pino 6 - > fio azul

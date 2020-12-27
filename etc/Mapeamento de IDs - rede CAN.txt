@@ -1,0 +1,31 @@
+
+tabela de IDs
+BMS->ecu:	0x0XX
+BMS: 0x6XXa
+
+INV_ME: 0x1XX
+INV_MD: 0x2XX
+ECU :	0x3XX
+
+
+INV_ME/_MD
+ID	    taxa(ms)   var(parametro)
+0xX00	  100		     vel_motor (38), torque(9),  potencia(10), corrente de torque(3314)
+0xX01	  2000		   energia(44), sobrecarga(37), temp_mosf1(30), temp_mosf2(33)
+0xX02	  2000		   msg_perdidas(709), bus_off_count(708), estado_can (705), -
+0xX03   2000       estado inv (6),  falha(49),  alarme(48), -
+
+ECU
+ID			taxa(ms)       var
+0x300		50	          param_ctrl, refTorq1, refTorq2 , refvel
+0x301		50	          param_ctrl, refTorq1, refTorq2 , refvel
+0x302   100           velocidade_total, acelerador, volante, freio
+0x303   1000          status_ecu, - ,  -, -
+
+Mensagens do inversor são retransmitidas pelo ecu a rede can 1.
+A mensagem de id 0x300, de controle do ecu, são transmitidas as duas redes.
+param_ctrl(0): habilita_geral
+param_ctrl(1): girar_parar
+param_ctrl(2): freiar
+param_ctrl(3): status_comun
+param_ctrl(4): rev

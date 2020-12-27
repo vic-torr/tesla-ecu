@@ -1,0 +1,25 @@
+Autocross:
+
+
+Enduro:
+
+
+Aceleracao:
+
+
+
+Codigo padrao do inversor:
+
+if( torq_max < imax_inv/imax_motor) torq_max_out = torq_max
+
+p0295 =2 -> 200A/400A pico
+
+vel<2000rpm -> torq max
+2000< vel < 2500 -> 120
+2500 < vel < 3500 -> 100
+3500 < vel < 4000
+4000 < vel < 5000
+5000 < vel < 6000
+
+vel_angular = (2*pi*vel_rpm)/60
+torq_out = potencia/vel_angular
